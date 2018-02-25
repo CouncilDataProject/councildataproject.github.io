@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta property="og:title" content="Council Data Project - Seattle" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://councildataproject.github.io/" />
+    <meta property="og:image" content="https://councildataproject.github.io/resources/cdp-icon.png" />
+    <meta name="description" property="og:description" content="Search for relevant events and meetings held by City Councils covered by council data project." />
+    <meta name="keywords" content="city council, city, council, meeting, transcription, video, council data project" />
+    <link rel="icon" href="resources/cdp-icon.png">
+    <title>Council Data Project</title>
+
+    <!-- styles -->
+    <link href="style/master.css" type="text/css" rel="stylesheet" />
+
+    <!-- imported -->
+    <script src="js/imported/jquery-3.2.1.js" charset="utf-8"></script>
+    <script src="js/imported/vue.min.js" charset="utf-8"></script>
+
+  </head>
+  <body>
+    <div id="app-body">
+      <div id="app-header" class="flex align-center justify-center height-60px width-100vw color-blue-main-background">
+        <a href="./" class="apply-link-standards section-label color-text-lightest">Council Data Project</a>
+      </div>
+
+      <div id="app">
+        <city-blocks></city-blocks>
+      </div>
+
+      <div id="app-footer" class="width-100vw color-blue-main-background">
+        <div class="flex flex-row flex-wrap align-center justify-center">
+          <div class="width-180px-min space-top-40px space-bottom-40px space-left-80px space-right-80px">
+            <ul class="remove-item-decoration">
+              <li class="accent-text bold-text color-text-lightest">DEVELOPERS</li>
+              <li><a class="accent-text apply-link-standards link-lightest-to-main color-text-lightest transition-all-150" href="https://github.com/CouncilDataProject">Council&nbsp;Data&nbsp;Project</a></li>
+              <li><a class="accent-text apply-link-standards link-lightest-to-main color-text-lightest transition-all-150" href="https://github.com/CouncilDataProject/councildataproject.github.io">Transfer&nbsp;Specific</a></li>
+              <li><a class="accent-text apply-link-standards link-lightest-to-main color-text-lightest transition-all-150" href="https://github.com/CouncilDataProject/transcription_runner">Transcription&nbsp;Runner</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="margin-center width-60-percent text-center padding-bottom-40px">
+          <p class="accent-text color-text-lightest">The associated web applications are not funded by, nor associated with each city's City Council. These are prototype web applications to show the viability of automated and collaborativly sourced city council transcription services. The transcripts are roughly ninty-percent accurate, and therefore may not represent what was actually said.</p>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script async src="js/my/app.js" charset="utf-8"></script>
+</html>
