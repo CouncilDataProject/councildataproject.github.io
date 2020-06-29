@@ -3,3 +3,5 @@
 .sass-cache/
 
 master.css.map
+.DS_Store
+.vscode/
