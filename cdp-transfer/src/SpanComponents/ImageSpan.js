@@ -13,12 +13,14 @@ export default function ImageSpan(props) {
       marginBottom: 24,
       maxWidth: "50%",
       color: "white",
+      fontWeight:700
     },
     subtitle: {
       marginTop: 24,
       marginBottom: 24, 
       maxWidth: "90%",
-      color: "white"
+      color: "white",
+      fontWeight:500
     },
     body: {
       marginTop: 24,
@@ -26,27 +28,42 @@ export default function ImageSpan(props) {
       maxWidth: "45%",
       color: "white"
     },
-    imageBackground: {
-      backgroundImage: `url(${props.imageSrc})`,
+    containerBackground: {
       display:'flex',
       alignItems: "center",
       justifyContent: "center",
       flexDirection: "column",
-      backgroundRepeat: 'no-repeat',
       backgroundSize: "100%",
+    },
+    colorBackground: {
+      backgroundColor: props.backgroundColor
+    },
+    gradientStyle: {
+      backgroundColor: "rgba(38,38,38,0.2)",
+      display: 'flex'
+    },
+    imageBackground: {
+      backgroundImage: `url(${props.imageSrc})`,
+      backgroundRepeat: 'no-repeat',
     } //maybe change backgroundSize to 'cover' if the image is a photograph to avoid stretch
   }
-
+  const shouldUseImage = !!props.imageSrc
+  let containerStyle = styles.containerBackground
+  if(shouldUseImage) {
+    Object.assign(containerStyle, styles.imageBackground)
+  } else {
+    Object.assign(containerStyle, styles.colorBackground)
+  }
   return (
   <Box>
-    <div style={styles.imageBackground}>
-      <Typography align="center" variant="h5" style={styles.header}>{props.title}</Typography>
-      {props.subtitle && 
-      <Typography align="center" variant="subtitle2"  style={styles.subtitle}>{props.subtitle}</Typography>
-      }
-      <Typography align="center" style={styles.body}>{props.bodyText}</Typography>
-      {props.hasActionButton && <Button style={styles.actionButton}>
-        {props.actionButtonText}
+    <div style={containerStyle}>
+      <Typography align="center" variant="h3" style={styles.header}>{props.title}</Typography>
+        {props.subtitle && 
+        <Typography align="center" variant="h4"  style={styles.subtitle}>{props.subtitle}</Typography>
+        }
+        <Typography align="center" variant="h6" style={styles.body}>{props.bodyText}</Typography>
+        {props.hasActionButton && <Button style={styles.actionButton}>
+          {props.actionButtonText}
       </Button>}
     </div>
   </Box>

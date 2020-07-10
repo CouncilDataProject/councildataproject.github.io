@@ -7,11 +7,14 @@ import {
 import Home from './Routes/Home';
 import About from './Routes/About';
 import SiteHeader from './Routes/SiteHeader'
+import Publicity from './Routes/Publicity';
+import MeetTheTeam from "./Routes/MeetTheTeam";
+
 export default function App() {
   return (
     <Router>
       <div>
-        <SiteHeader/> {
+        <SiteHeader /> {
         /*SiteHeader is the nav bar at the top of the site. 
         Add and adjust visual components there, then add their routes to the Router below.*/}
         {/* A <Switch> looks through its children <Route>s and
@@ -19,6 +22,12 @@ export default function App() {
         <Switch>
           <Route path="/about">
             <About />
+          </Route>
+          <Route path="/meet-the-team">
+            <MeetTheTeam />
+          </Route>
+          <Route path="/publicity">
+            <Publicity />
           </Route>
           <Route path="/">
             <Home />

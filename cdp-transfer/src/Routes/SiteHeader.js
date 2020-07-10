@@ -1,26 +1,29 @@
 import React from "react";
 import {
-  Link
+  useHistory
 } from "react-router-dom";
-import { Toolbar, AppBar, Typography } from '@material-ui/core';
+import { Button, Toolbar, AppBar, Typography } from '@material-ui/core';
+import CDPLogo from '../Assets/Images/cdp_logo.svg'
+import AboutMenu from '../MenuComponents/AboutMenu';
+import HowMenu from '../MenuComponents/HowMenu';
 
 export default function SiteHeader() {
+  let history = useHistory();
+  
   return (
     <AppBar position="static">
       <Toolbar style={styles.toolbar}>
         <div style={styles.navigationContainer}>
-          <Typography style={styles.placeholder} noWrap>Council Data Project Home/Icon</Typography>
+          <img onClick={()=> { history.push('/home') }}  src={`${CDPLogo}`} alt="Council Data Project Logo" style={{ padding: 8, maxHeight:100 }}/>
         </div>
         {/*
         far left: IconButton with CDP logo, links to home,
         then flex-end row of buttons, some are actually dropdowns?
         */}
         <div style={styles.navigationContainer}>
-          <Link style={styles.placeholder} to="/home">Home</Link>
-          <Link style={styles.placeholder} to="/about">About</Link>
-          <Typography style={styles.placeholder}>How CDP Works</Typography>
-          <Typography style={styles.placeholder}>CDP in Your City</Typography>
-          <Typography style={styles.placeholder}>Contact Us</Typography>
+          <Button onClick={()=> { history.push('/home') }}>Home</Button>
+          <AboutMenu />
+          <HowMenu />
         </div>
       </Toolbar>
     </AppBar>

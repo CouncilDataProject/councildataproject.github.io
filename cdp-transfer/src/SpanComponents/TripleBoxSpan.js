@@ -15,57 +15,65 @@ export default function TripleBoxSpan(props) {
     }, //maybe change backgroundSize to 'cover' if the image is a photograph to avoid stretch
     leftBox: {
       flexDirection: 'column',
-      backgroundColor: 'purple',
       marginRight: 24,
     },
     centerBox: {
       flexDirection: 'column',
-      backgroundColor: 'blue'
     },
     rightBox: {
       flexDirection: 'column',
-      backgroundColor: 'red',
       marginLeft: 24
     },
     header: {
-      marginTop: 124,
+      marginTop: 24,
       marginBottom: 24,
-      color: "white",
     },
     subtitle: {
       marginTop: 24,
       marginBottom: 24, 
-      color: "white"
     },
     body: {
       marginTop: 24,
-      color: "white"
     },
   }
+
   return (
   <Box>
     <div style={styles.imageBackground}>
       <Box style={styles.leftBox}>
+        {props.iconLeft &&
+        <div style={{display: 'flex', justifyContent: 'center'}}>
+          {props.iconLeft()}
+        </div>}
         <Typography align="center" variant="h5" style={styles.header}>{props.titleLeft}</Typography>
         {props.subtitleLeft && 
-        <Typography align="center" variant="subtitle2"  style={styles.subtitle}>{props.subtitleLeft}</Typography>
+        <Typography align="center" variant="subtitle1"  style={styles.subtitle}>{props.subtitleLeft}</Typography>
         }
         <Typography align="center" style={styles.body}>{props.bodyTextLeft}</Typography>
       </Box>
       <Box style={styles.centerBox}>
+        {props.iconCenter &&
+        <div style={{display: 'flex', justifyContent: 'center'}}>
+          {props.iconCenter()}
+        </div>}
         <Typography align="center" variant="h5" style={styles.header}>{props.titleCenter}</Typography>
         {props.subtitleCenter && 
-        <Typography align="center" variant="subtitle2"  style={styles.subtitle}>{props.subtitleCenter}</Typography>
+        <Typography align="center" variant="subtitle1"  style={styles.subtitle}>{props.subtitleCenter}</Typography>
         }
         <Typography align="center" style={styles.body}>{props.bodyTextCenter}</Typography>
       </Box>
       <Box style={styles.rightBox}>
+        {props.iconRight &&
+          <div style={{display: 'flex', justifyContent: 'center'}}>
+            {props.iconRight()}
+          </div>}
         <Typography align="center" variant="h5" style={styles.header}>{props.titleRight}</Typography>
         {props.subtitleRight && 
-        <Typography align="center" variant="subtitle2"  style={styles.subtitle}>{props.subtitleRight}</Typography>
+        <Typography align="center" variant="subtitle1"  style={styles.subtitle}>{props.subtitleRight}</Typography>
         }
         <Typography align="center" style={styles.body}>{props.bodyTextRight}</Typography>
       </Box>
-    </div>  </Box>
+    </div>
+    </Box>
   )
 }
