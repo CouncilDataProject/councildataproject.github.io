@@ -3,9 +3,9 @@ import ImageSpanComponent from '../SpanComponents/ImageSpan';
 import TripleBoxSpan from '../SpanComponents/TripleBoxSpan';
 import { Gavel, People, VideoLibrary } from '@material-ui/icons';
 import { ColorPalette } from '../Theme/ColorPalette';
-import Comp1 from '../Assets/Images/comp1.png'
-import Comp2 from '../Assets/Images/comp2.png'
-import Comp3 from '../Assets/Images/comp3.png'
+import landscape1 from '../Assets/Images/landscape_moss1-yoyo-dy.jpg'
+import landscape2 from '../Assets/Images/landscape-blueplant-fabrizio-conti.jpg'
+import landscape3 from '../Assets/Images/landscape-moss2-zach-reiner.jpg';
 
 export default function Home() {
   const GavelIcon = () => <Gavel />
@@ -18,37 +18,38 @@ export default function Home() {
       <ImageSpanComponent
         title="COUNCIL DATA PROJECT"
         subtitle="Transparent, Accessible City Council Information"
-        bodyText="Council Data Project is an open-source project dedicated to providing citizens with the tools they need to stay informed and hold their City Council Members accountable. By combining and simplifying sources of information on City Council meetings and actions, CDP strives to ensure that everyone is empowered to participate in local government."
+        bodyText="We are an open-source project dedicated to providing citizens with the tools they need to stay informed and hold our City Council Members accountable. By combining and simplifying sources of information on City Council meetings and actions, CDP strives to ensure that everyone is empowered to participate in local government."
         hasActionButton={false}
+        imageSrc={landscape3}
         backgroundColor={ColorPalette.baseTeal}
       />
       <ImageSpanComponent
         title="3 TYPES OF CITY COUNCIL DATA"
         subtitle="Conveniently Brought Together in One Platform"
-        bodyText="Council Data Project combines multiple, complex sources of City Council data into one simplified platform. This makes it easier for any citizen to search for the legislation, committee meetings, council meetings, and representatives that are relevant to their interests. Learn more about each way to search Council Data Project below."
+        bodyText="We combine multiple, complex sources of City Council data into one simplified platform. Any citizen can search for the legislation, committee meetings, council meetings, and representatives that are relevant to their interests. Learn more about each way to search Council Data Project below."
         hasActionButton={false}
-        imageSrc={Comp2}
+        imageSrc={landscape2}
       />
       <TripleBoxSpan
         iconLeft={VideoIcon}
         titleLeft="Search Meetings"
         subtitleLeft="Meeting Videos and Transcripts"
-        bodyTextLeft="Search City Council meetings for specific keywords related to your interests. Watch meeting videos, read the transcripts, and view a list of all actions that took place."
+        bodyTextLeft="Get first-hand information. Watch meeting videos, search keyworded transcripts, and view a list of all actions that took place."
         iconCenter={GavelIcon}
         titleCenter="Search Legislation"
         subtitleCenter="Full Legislation History"
-        bodyTextCenter="Search City Council legislation by your interests for related bills, ordinances, and more. View amendments, past votes, and final rulings on all legislation."
+        bodyTextCenter="Research legislation for bills, ordinances, and more. View amendments, past votes, and final rulings on all legislation."
         iconRight={PeopleIcon}
         titleRight="Search Council Members"
         subtitleRight="Committee and Legislative Actions"
-        bodyTextRight="Search City Council Members to learn about your local representatives. Receive their contact information, view their voting history, and discover their committee affiliations."
+        bodyTextRight="Learn about your local representatives. Receive their contact information, view their voting history, and discover their committee affiliations."
       />
       <ImageSpanComponent
         title="FOR EVERY CITY & EVERY CITIZEN"
-        bodyText="Council Data Project is committed to empowering developers and citizens to contribute to the accessibility of local government information. CDP is an open-source project that maintains resources to support additional installations of the service for multiple cities."
+        bodyText="We empower developers and citizens to contribute to the accessibility of local government information. CDP is an open-source project that maintains resources to support additional installations of the service for multiple cities."
         hasActionButton={false}
         backgroundColor={ColorPalette.mediumGray}
-        imageSrc={Comp3}
+        imageSrc={landscape1}
       />
     </React.Fragment>
   )

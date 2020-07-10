@@ -39,8 +39,12 @@ export default function ImageSpan(props) {
       backgroundColor: props.backgroundColor
     },
     gradientStyle: {
-      backgroundColor: "rgba(38,38,38,0.2)",
-      display: 'flex'
+      backgroundColor: "rgba(38,38,38,0.55)",
+      display: 'flex',
+      alignItems: "center",
+      justifyContent: "center",
+      flexDirection: "column",
+      backgroundSize: "100%",
     },
     imageBackground: {
       backgroundImage: `url(${props.imageSrc})`,
@@ -55,16 +59,18 @@ export default function ImageSpan(props) {
     Object.assign(containerStyle, styles.colorBackground)
   }
   return (
-  <Box>
+  <Box >
     <div style={containerStyle}>
-      <Typography align="center" variant="h3" style={styles.header}>{props.title}</Typography>
-        {props.subtitle && 
-        <Typography align="center" variant="h4"  style={styles.subtitle}>{props.subtitle}</Typography>
-        }
-        <Typography align="center" variant="h6" style={styles.body}>{props.bodyText}</Typography>
-        {props.hasActionButton && <Button style={styles.actionButton}>
-          {props.actionButtonText}
-      </Button>}
+      <div style={styles.gradientStyle} >
+        <Typography align="center" variant="h3" style={styles.header}>{props.title}</Typography>
+          {props.subtitle && 
+          <Typography align="center" variant="h4"  style={styles.subtitle}>{props.subtitle}</Typography>
+          }
+          <Typography align="center" variant="h6" style={styles.body}>{props.bodyText}</Typography>
+          {props.hasActionButton && <Button style={styles.actionButton}>
+            {props.actionButtonText}
+        </Button>}
+      </div>
     </div>
   </Box>
   )

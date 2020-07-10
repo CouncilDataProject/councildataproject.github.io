@@ -6,7 +6,7 @@ export default function CircleImageWithText(props) {
   <Card>
     <CardActionArea>
       <CardMedia
-        image={`url(${props.imageSource})`}
+        image={props.imageSource}
         title={props.altText}
         style={{ borderRadius: "50%", paddingTop: "81.25%", margin: 28 }}
       />
