@@ -3,7 +3,7 @@ import { Button, Card, CardActions, CardActionArea, CardMedia, CardContent, Typo
 
 export default function CircleImageWithText(props) {
   return (
-  <Card>
+  <Card style={{ width: "100%", margin: 12}}>
     <CardActionArea>
       <CardMedia
         image={props.imageSource}

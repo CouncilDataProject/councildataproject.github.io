@@ -2,7 +2,7 @@ import React from "react";
 import {
   useHistory
 } from "react-router-dom";
-import { Button, Toolbar, AppBar, Typography } from '@material-ui/core';
+import { Button, Toolbar, AppBar } from '@material-ui/core';
 import CDPLogo from '../Assets/Images/cdp_logo.svg'
 import AboutMenu from '../MenuComponents/AboutMenu';
 import HowMenu from '../MenuComponents/HowMenu';

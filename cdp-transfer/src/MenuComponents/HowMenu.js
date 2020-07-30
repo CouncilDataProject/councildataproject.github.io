@@ -14,8 +14,9 @@ export default function HowMenu() {
     setAnchorEl(event.currentTarget);
   };
 
-  const handleClose = () => {
+  const handleClose = (destination) => {
     setAnchorEl(null);
+    if(typeof destination === "string") { history.push(`/${destination}`) }
   };
 
   return (
@@ -39,10 +40,10 @@ export default function HowMenu() {
         onClose={handleClose}
         getContentAnchorEl={this}
       >
-        <MenuItem onClick={handleClose}>...to use it</MenuItem>
-        <MenuItem onClick={handleClose}>...to bring it to your city</MenuItem>
-        <MenuItem onClick={handleClose}>...to help us</MenuItem>
-        <MenuItem onClick={handleClose}>...to contact us</MenuItem>
+        <MenuItem onClick={()=> { handleClose('searching-with-cdp') }}>...to use it</MenuItem>
+        <MenuItem onClick={()=> { handleClose('using-cdp-platform') }}>...to bring it to your city</MenuItem>
+        <MenuItem onClick={()=> { handleClose('volunteer') }}>...to help us</MenuItem>
+        <MenuItem onClick={()=> { handleClose('contact') }}>...to contact us</MenuItem>
       </Menu>
     </React.Fragment>
   )

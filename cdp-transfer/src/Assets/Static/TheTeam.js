@@ -26,7 +26,19 @@ const TheTeam = {
     },
     {
       name: "To Huynh",
-      introText: "Awesome dude, ",
+      introText: "Awesome dude",
+      gitHubProfile: '',
+      linkedIn: ''
+    },
+    {
+      name: "Emily Gilles",
+      introText: "Super rad hat",
+      gitHubProfile: '',
+      linkedIn: ''
+    },
+    {
+      name: "Ethan Davis",
+      introText: "Super rad hat",
       gitHubProfile: '',
       linkedIn: ''
     },

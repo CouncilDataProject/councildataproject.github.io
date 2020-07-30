@@ -9,6 +9,8 @@ import About from './Routes/About';
 import SiteHeader from './Routes/SiteHeader'
 import Publicity from './Routes/Publicity';
 import MeetTheTeam from "./Routes/MeetTheTeam";
+import SearchingWithCDP from './Routes/How/SearchingWithCDP';
+import UsingCDPPlatform from './Routes/How/UsingCDPPlatform';
 
 export default function App() {
   return (
@@ -27,6 +29,18 @@ export default function App() {
             <MeetTheTeam />
           </Route>
           <Route path="/publicity">
+            <Publicity />
+          </Route>
+          <Route path="/searching-with-cdp">
+            <SearchingWithCDP />
+          </Route>
+          <Route path="/using-cdp-platform">
+            <UsingCDPPlatform />
+          </Route>
+          <Route path="/volunteer">
+            <Publicity />
+          </Route>
+          <Route path="/contact">
             <Publicity />
           </Route>
           <Route path="/">

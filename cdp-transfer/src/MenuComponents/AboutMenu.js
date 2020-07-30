@@ -16,7 +16,7 @@ export default function AboutMenu() {
 
   const handleClose = (destination) => {
     setAnchorEl(null);
-    history.push(`/${destination}`)
+    if(typeof destination === "string") { history.push(`/${destination}`) }
   };
 
   return (
