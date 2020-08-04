@@ -67,7 +67,7 @@ export default function ImageSpan(props) {
           <Typography align="center" variant="h4"  style={styles.subtitle}>{props.subtitle}</Typography>
           }
           <Typography align="center" variant="h6" style={styles.body}>{props.bodyText}</Typography>
-          {props.hasActionButton && <Button style={styles.actionButton}>
+          {props.hasActionButton && <Button style={styles.actionButton} onClick={() => { window.location.replace(props.actionButtonLinkDestination) }}>
             {props.actionButtonText}
         </Button>}
       </div>

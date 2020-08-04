@@ -49,6 +49,26 @@ const HowItWorks = {
       body: "CDP was designed to plug into most city council public resources to make searching the data simpler. In order to get access for your city, visit the project’s GitHub to learn more about setting up a new instance of CDP.",
       imageSrc:comp1
     },
+  ],
+  howToHelpContentBlocks: [
+    {
+      title: "Use Your Local CDP Instance",
+      subtitle:"Shine a Light on your Local Council",
+      body: "Council Data Project's purpose is to increase political accountability through transparency. The more citizens we have looking at their local councils, the more we can consider CDP a success.",
+      imageSrc:comp1
+    },
+    {
+      title: "Provide Feedback",
+      subtitle:"A Process of Iterative Improvement",
+      body: "CDP is not finished. We want to improve its capabilities to ensure its usefulness for years to come. A huge part of that is feedback from the community. If you want to help us, let us know what to work on next!",
+      imageSrc:comp1
+    },
+    {
+      title: "Get Involved",
+      subtitle:"Grow Your Skills as a CDP Volunteer",
+      body: "As an open-source, non-profit project, CDP can always use additional support from volunteers. CDP currently has needs for developers, designers, researchers, marketers, and any other role you think could add value. CDP loves working with people that are passionate about improving citizen access to information, so don’t hesitate to reach out!",
+      imageSrc:comp1
+    },
   ]
 }
 

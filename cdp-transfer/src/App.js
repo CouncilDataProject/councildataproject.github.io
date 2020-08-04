@@ -11,6 +11,7 @@ import Publicity from './Routes/Publicity';
 import MeetTheTeam from "./Routes/MeetTheTeam";
 import SearchingWithCDP from './Routes/How/SearchingWithCDP';
 import UsingCDPPlatform from './Routes/How/UsingCDPPlatform';
+import VolunteerWithUs from './Routes/How/VolunteerWithUs';
 
 export default function App() {
   return (
@@ -38,11 +39,11 @@ export default function App() {
             <UsingCDPPlatform />
           </Route>
           <Route path="/volunteer">
-            <Publicity />
+            <VolunteerWithUs />
           </Route>
-          <Route path="/contact">
+          {/* <Route path="/contact">
             <Publicity />
-          </Route>
+          </Route> */}
           <Route path="/">
             <Home />
           </Route>

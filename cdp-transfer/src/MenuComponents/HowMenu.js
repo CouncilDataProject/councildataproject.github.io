@@ -43,7 +43,7 @@ export default function HowMenu() {
         <MenuItem onClick={()=> { handleClose('searching-with-cdp') }}>...to use it</MenuItem>
         <MenuItem onClick={()=> { handleClose('using-cdp-platform') }}>...to bring it to your city</MenuItem>
         <MenuItem onClick={()=> { handleClose('volunteer') }}>...to help us</MenuItem>
-        <MenuItem onClick={()=> { handleClose('contact') }}>...to contact us</MenuItem>
+        {/* <MenuItem onClick={()=> { handleClose('contact') }}>...to contact us</MenuItem> */}
       </Menu>
     </React.Fragment>
   )

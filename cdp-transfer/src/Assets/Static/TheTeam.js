@@ -1,46 +1,46 @@
 import comp1 from '../Images/comp1.png'
-import comp2 from '../Images/comp2.png'
-import { Face } from '@material-ui/icons'
+import KatlynGreene from '../Images/TeamHeadshots/katlyn_greene.jpg'
+import JacksonMaxfield from '../Images/TeamHeadshots/jackson_maxfield_brown.jpeg'
 const TheTeam = {
   teamList: [
     {
-      name: "Brian Ledbetter",
-      avatarImagePath: comp1,
-      introText: "Works on the transfer site (this website!).",
-      gitHubProfile: '',
-      linkedIn: ''
-    },
-    {
       name: "Jackson Brown",
-      avatarImagePath: comp2,
-      introText: "Grand inventor of the CDP, works at the U of W",
-      gitHubProfile: '',
-      linkedIn: ''
+      avatarImagePath: JacksonMaxfield,
+      introText: "Focuses on reproducible, large-scale, scientific computing.",
+      gitHub: 'https://github.com/JacksonMaxfield',
+      linkedIn: 'https://www.linkedin.com/in/jacksonmaxfield'
     },
     {
       name: "Katlyn Greene",
-      avatarImagePath: "comp1",
-      introText: "Works for the city of Seattle, makes UI for the CDP tool",
-      gitHubProfile: '',
-      linkedIn: ''
+      avatarImagePath: KatlynGreene,
+      introText: "Marketing and Cognitive Psychology has given me the tools to effectively employ user research methodologies and produce data-driven designs.",
+      gitHub: '',
+      linkedIn: 'https://www.linkedin.com/in/katlynmfgreene'
     },
     {
       name: "To Huynh",
-      introText: "Awesome dude",
-      gitHubProfile: '',
+      introText: "Tirelessly improving CDP as a frontend developer",
+      gitHub: '',
       linkedIn: ''
     },
     {
       name: "Emily Gilles",
-      introText: "Super rad hat",
-      gitHubProfile: '',
-      linkedIn: ''
+      introText: "Using research-based design to improve the way Seattleites interact with their local government.",
+      gitHub: '',
+      linkedIn: 'https://www.linkedin.com/in/emily-gilles'
     },
     {
       name: "Ethan Davis",
       introText: "Super rad hat",
-      gitHubProfile: '',
+      gitHub: '',
       linkedIn: ''
+    },
+    {
+      name: "Brian Ledbetter",
+      avatarImagePath: comp1,
+      introText: "Works on the transfer site (this website!).",
+      gitHub: 'https://github.com/BrianL3',
+      linkedIn: 'https://www.linkedin.com/in/brianjledbetter'
     },
   ]
 }
