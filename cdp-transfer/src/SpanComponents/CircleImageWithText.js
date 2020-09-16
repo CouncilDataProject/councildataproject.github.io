@@ -47,12 +47,14 @@ export default function CircleImageWithText(props) {
 
 const styles = {
   button: {
-    width: "50%"
+    width: "50%",
+    marginLeft: 24,
+    marginRight: 24
   },
   buttonRow: {
     display:"flex",
     flexDirection:"row",
-    justifyContent:"center",
+    justifyContent:"space-between",
     flexGrow: true
   },
   avatar: {

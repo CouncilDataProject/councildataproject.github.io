@@ -19,6 +19,7 @@ export default function Publicity() {
               title={contentObject.title}
               body={contentObject.blurb}
               imageSource={avatar}
+              cardActionDestination={contentObject.cardActionDestination}
             />
           </div>
           

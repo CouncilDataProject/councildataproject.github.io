@@ -1,5 +1,8 @@
 import comp1 from '../Images/comp1.png'
 import comp2 from '../Images/comp2.png'
+import boats from '../Images/dave-hoefler-boats.jpg'
+import stormroad from '../Images/dave-hoefler-stormroad.jpg'
+import sunset from '../Images/dave-hoefler-sunset.jpg'
 
 const HowItWorks = {
   aboutContentBlocks: [
@@ -7,19 +10,19 @@ const HowItWorks = {
       title: "Searching with CDP",
       subtitle:"Transparency in your City",
       body: "Municipal law affects you far more than you might think. It governs bike lanes, police, local taxes, public transport, and more. With CDP it is easy to find the information you’re looking for, making it simpler to stay informed and hold your representatives accountable.",
-      imageSrc:comp1
+      imageSrc:boats
     },
     {
       title: "Making City Councils More Accessible",
       subtitle:"A Searchable Archive",
       body: "CDP organizes city council meeting, legislation, and member information into a highly searchable and easy to use format. We take clunky and complicated government-provided data and transform it into a clean, usable archive of your city council’s actions.",
-      imageSrc:comp1
+      imageSrc:stormroad
     },
     {
       title: "How CDP Works",
-      subtitle:"How CDP Scrapes Data and Serves Transcripts",
-      body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      imageSrc:comp2
+      subtitle:"Scraping Data and Serving Transcripts",
+      body: "CDP was designed to plug into most city council public resources to make searching the data simpler. Over 8,000 cities across the United States store their council resources in a way compatible with simple setup of a CDP instance. After instance setup, CDP combs through recorded council meetings and creates searchable text transcripts.",
+      imageSrc:sunset
     }
   ],
   howToUseItContentBlocks: [
@@ -47,6 +50,7 @@ const HowItWorks = {
       title: "Connecting CDP to Your Local City Council",
       subtitle:"Available for over 8,000 cities across the USA",
       body: "CDP was designed to plug into most city council public resources to make searching the data simpler. In order to get access for your city, visit the project’s GitHub to learn more about setting up a new instance of CDP.",
+      cardActionDestination: "https://github.com/CouncilDataProject",
       imageSrc:comp1
     },
   ],
