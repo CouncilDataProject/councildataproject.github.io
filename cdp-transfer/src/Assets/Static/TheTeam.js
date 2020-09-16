@@ -19,8 +19,8 @@ const TheTeam = {
     },
     {
       name: "To Huynh",
-      introText: "Tirelessly improving CDP as a frontend developer",
-      gitHub: '',
+      introText: "Tirelessly improving CDP, front-end and back-end!",
+      gitHub: "https://github.com/tohuynh",
       linkedIn: ''
     },
     {
@@ -30,10 +30,10 @@ const TheTeam = {
       linkedIn: 'https://www.linkedin.com/in/emily-gilles'
     },
     {
-      name: "Ethan Davis",
-      introText: "Super rad hat",
-      gitHub: '',
-      linkedIn: ''
+      name: "Isaac Na",
+      introText: "Backend development and infrastructure management",
+      gitHub: "https://github.com/isaacna",
+      linkedIn: "https://www.linkedin.com/in/isaac-na-820b96115/"
     },
     {
       name: "Brian Ledbetter",
