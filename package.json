@@ -1,0 +1,48 @@
+{
+  "name": "councildataproject.github.io",
+  "version": "0.1.0",
+  "homepage": "http://councildataproject.github.io/",
+  "license": "MIT License",
+  "dependencies": {
+    "@mozilla-protocol/core": "^12.1.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-ga": "^3.2.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "lint": "eslint --ignore-path .gitignore .",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.11.6",
+    "@testing-library/react": "^11.1.2",
+    "@testing-library/user-event": "^12.2.2",
+    "eslint-config-strongloop": "^2.1.0",
+    "eslint-plugin-jsdoc": "^15.11.0",
+    "gh-pages": "^2.2.0",
+    "react-scripts": "4.0.0",
+    "web-vitals": "^0.2.4"
+  }
+}
