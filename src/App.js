@@ -131,7 +131,7 @@ function App() {
                             Portions of this content are ©2017–2020 by individual Council Data Project contributors. Content available under <a rel="license" href="https://github.com/CouncilDataProject/councildataproject.github.io/blob/master/LICENSE">MIT License</a>.
                         </p>
                         <p>
-                            Styled using <a rel="external" href="https://protocol.mozilla.org/">Mozilla Protocol</a>. Images and artwork are provided by <a rel="external" href="https://undraw.co/">unDraw</a>.
+                            Styled using <a rel="external" href="https://protocol.mozilla.org/">Mozilla Protocol</a>. Artwork provided by <a rel="external" href="https://undraw.co/">unDraw</a>.
                         </p>
                     </div>
                 </nav>
