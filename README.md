@@ -1,70 +1,24 @@
-# Getting Started with Create React App
+# councildataproject.github.io
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![Deployment Status](https://github.com/CouncilDataProject/councildataproject.github.io/workflows/Build%20and%20Deploy/badge.svg)](https://github.com/CouncilDataProject/councildataproject.github.io/actions)
 
-## Available Scripts
+Landing page for the organization and brand, and acts as a transfer site for supported instances.
 
-In the project directory, you can run:
+## About
+Council Data Project is an open-source project dedicated to providing journalists, activists, researchers, and all members of each community we serve with the tools they need to stay informed and hold their Council Members accountable.
 
-### `npm start`
+By combining and simplifying sources of information on Council meetings and actions, CDP ensures that everyone is empowered to participate in local government.</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Each municipality that CDP supports (_a CDP instance_) has open source maintainers which write code to gather municipality meeting information and compile them into a single resource to then be stored by our general CDP tooling.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Contributing
+* [councildataproject.github.io](https://github.com/CouncilDataProject/councildataproject.github.io): This repo and website. Contributions here should largely be text changes and admin updates.
+* [cdp-backend](https://github.com/CouncilDataProject/cdp-backend): Contains all the database models, data processing pipelines, and infrastructure-as-code for CDP infrastructure deployments and processing. Entirely written in Python
+* [cdp-instance](https://github.com/CouncilDataProject/cdp-instance): Contains all of the components used by the web apps to be hosted on GitHub Pages. Entirely written in TypeScript.
+* [cookiecutter-cdp-deployment](https://github.com/CouncilDataProject/cookiecutter-cdp-deployment): A template to be used by the Python `cookiecutter` package to create an entirely new deployment repository. This is where `cdp-backend` and `cdp-instance` are imported and used. If you would like to create a new deployment under the `councildataproject.github.io` domain please [log a GitHub issue](https://github.com/CouncilDataProject/cookiecutter-cdp-deployment/issues). If you want to utilize a different domain, simply use the template like any other `cookiecutter`.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Development Commands
+* `npm i`: install project dependencies
+* `npm start`: start a localhost server and watch for changes
+* `npm run build`: build the production application
+* `npm run test`: test that at the very least the webpage will render
