@@ -26,7 +26,7 @@ function App() {
                         <ul className="mzp-c-menu-category-list">
                             <li className="mzp-c-menu-category">
                                 <a href="#">
-                                    <img src="logo.png" width="84" />
+                                    <img src="logo.png" alt="CDP logo" width="84" />
                                 </a>
                             </li>
                             <li className="mzp-c-menu-category">
