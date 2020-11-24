@@ -9,7 +9,7 @@ ReactGA.initialize('UA-108611658-2');
 
 function App() {
     return (
-      <div className="App">
+      <div id="top" className="App">
         <div className="mzp-c-navigation mzp-is-sticky">
             <div className="mzp-c-navigation-l-content">
                 <div className="mzp-c-navigation-download">
@@ -25,7 +25,7 @@ function App() {
                     <nav className="mzp-c-menu mzp-is-basic">
                         <ul className="mzp-c-menu-category-list">
                             <li className="mzp-c-menu-category">
-                                <a href="#">
+                                <a href="#top">
                                     <img src="logo.png" alt="CDP logo" width="84" />
                                 </a>
                             </li>
