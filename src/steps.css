@@ -1,0 +1,28 @@
+/* https://stackoverflow.com/a/50354345 */
+.steps li {
+  display: flex;
+}
+
+.steps span {
+  padding: 0 1.5em 1.5em 1.5em;
+  position: relative;
+}
+
+.steps span::before {
+   content: "";
+   position: absolute;
+   z-index: 1;
+   left: 0;
+   height: 100%;
+   border-left: 1px #ccc solid;
+}
+
+.steps strong {
+   display: block;
+   font-weight: bolder;
+}
+
+.steps { margin: 1em; }
+.steps,
+.steps *::before,
+.steps *::after { box-sizing: border-box; }
