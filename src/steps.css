@@ -3,12 +3,19 @@
   display: flex;
 }
 
-.steps span {
+.steps .step-index { 
+  position: relative;
+  color: #ccc;
+  padding: 0 1.5em;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.steps .step-description {
   padding: 0 1.5em 1.5em 1.5em;
   position: relative;
 }
 
-.steps span::before {
+.steps .step-description::before {
    content: "";
    position: absolute;
    z-index: 1;
