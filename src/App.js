@@ -5,9 +5,9 @@ import "@mozilla-protocol/core/protocol/css/protocol-extra.css";
 import ReactGA from "react-ga";
 
 //Import Components 
+import Navigation from "./components/layout/Navigation";
 import Hero from "./components/layout/Hero";
 import About from "./components/layout/AboutSection/About";
-import Navigation from "./components/layout/Navigation";
 import Instances from "./components/layout/Instances";
 import Contributing from "./components/layout/Contributing";
 import Footer from "./components/layout/Footer";
