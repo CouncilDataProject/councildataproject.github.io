@@ -4,7 +4,7 @@ import "@mozilla-protocol/core/protocol/css/protocol.css";
 import "@mozilla-protocol/core/protocol/css/protocol-extra.css";
 import ReactGA from "react-ga";
 
-//Import Components 
+//Import Components
 import Navigation from "./components/layout/Navigation";
 import Hero from "./components/layout/Hero";
 import About from "./components/layout/AboutSection/About";
@@ -18,7 +18,22 @@ ReactGA.initialize("UA-108611658-2");
 function App() {
   return (
     <div id="top" className="App">
-      <Navigation />
+      <Navigation
+        NavLinks={[
+          {
+            name: "About",
+            to: "#about",
+          },
+          {
+            name: "Instances",
+            to: "#instances",
+          },
+          {
+            name: "Contributing",
+            to: "#contributing",
+          },
+        ]}
+      />
       <main>
         <Hero />
         <About />
