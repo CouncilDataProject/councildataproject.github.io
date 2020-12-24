@@ -18,7 +18,22 @@ ReactGA.initialize("UA-108611658-2");
 function App() {
   return (
     <div id="top" className="App">
-      <Navigation />
+      <Navigation
+        NavLinks={[
+          {
+            name: "About",
+            to: "#about",
+          },
+          {
+            name: "Instances",
+            to: "#instances",
+          },
+          {
+            name: "Contributing",
+            to: "#contributing",
+          },
+        ]}
+      />
       <main>
         <Hero />
         <About />

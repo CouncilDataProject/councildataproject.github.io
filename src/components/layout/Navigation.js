@@ -1,21 +1,6 @@
 import React from "react";
 
-const NavLinks = [
-  {
-    name: "About",
-    to: "#about",
-  },
-  {
-    name: "Instances",
-    to: "#instances",
-  },
-  {
-    name: "Contributing",
-    to: "#contributing",
-  },
-];
-
-export default function Navigation() {
+export default function Navigation({ NavLinks }) {
   return (
     <>
       <div id="main-nav" className="mzp-c-navigation mzp-is-sticky">
