@@ -1,0 +1,9 @@
+.cdp-link {
+  color: black;
+  text-decoration: underline;
+}
+
+.cdp-link:hover {
+  color: black;
+  text-decoration: none;
+}
