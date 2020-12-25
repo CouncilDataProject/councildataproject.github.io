@@ -19,7 +19,7 @@ export default function Hero() {
                   <br />
                   Videos, transcripts, voting records, and legislation
                   <br />
-                  -- all searchable under a single website."
+                  -- all searchable under a single website.
                 </p>
               </div>
             </div>
