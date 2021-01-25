@@ -1,11 +1,11 @@
 import "@mozilla-protocol/core/protocol/css/protocol.css";
 import "@mozilla-protocol/core/protocol/css/protocol-extra.css";
-import "./cdp.css";
-import "./colors.css";
-import "./steps.css";
+import "@councildataproject/cdp-design/dist/colors.css";
+import "@councildataproject/cdp-design/dist/images.css";
+import "@councildataproject/cdp-design/dist/text.css";
 import ReactGA from "react-ga";
 
-//Import Components 
+//Import Components
 import Navigation from "./components/layout/Navigation";
 import Hero from "./components/layout/Hero";
 import About from "./components/layout/AboutSection/About";
