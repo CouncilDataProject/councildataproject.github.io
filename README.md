@@ -18,7 +18,7 @@ For more information about CouncilDataProject, please visit
 
 ## About
 
-`councildataproject.github.io` is our organizations landing page! It contains
+`councildataproject.github.io` is our landing page! It contains
 more in-depth information and details about the project than the individual
 repo README files.
 
