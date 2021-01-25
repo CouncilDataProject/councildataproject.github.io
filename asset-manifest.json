@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.1c4b7d46.chunk.css",
-    "main.js": "/static/js/main.c846db8a.chunk.js",
-    "main.js.map": "/static/js/main.c846db8a.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.30bd71b1.js",
-    "runtime-main.js.map": "/static/js/runtime-main.30bd71b1.js.map",
-    "static/css/2.c78a9ef0.chunk.css": "/static/css/2.c78a9ef0.chunk.css",
-    "static/js/2.d6602d8d.chunk.js": "/static/js/2.d6602d8d.chunk.js",
-    "static/js/2.d6602d8d.chunk.js.map": "/static/js/2.d6602d8d.chunk.js.map",
-    "static/js/3.1a757570.chunk.js": "/static/js/3.1a757570.chunk.js",
-    "static/js/3.1a757570.chunk.js.map": "/static/js/3.1a757570.chunk.js.map",
+    "main.css": "/static/css/main.5c224b48.chunk.css",
+    "main.js": "/static/js/main.85cee6f8.chunk.js",
+    "main.js.map": "/static/js/main.85cee6f8.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.70133997.js",
+    "runtime-main.js.map": "/static/js/runtime-main.70133997.js.map",
+    "static/css/2.5e5cd1c2.chunk.css": "/static/css/2.5e5cd1c2.chunk.css",
+    "static/js/2.29941b7d.chunk.js": "/static/js/2.29941b7d.chunk.js",
+    "static/js/2.29941b7d.chunk.js.map": "/static/js/2.29941b7d.chunk.js.map",
+    "static/js/3.aa55ee48.chunk.js": "/static/js/3.aa55ee48.chunk.js",
+    "static/js/3.aa55ee48.chunk.js.map": "/static/js/3.aa55ee48.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/2.c78a9ef0.chunk.css.map": "/static/css/2.c78a9ef0.chunk.css.map",
-    "static/css/main.1c4b7d46.chunk.css.map": "/static/css/main.1c4b7d46.chunk.css.map",
-    "static/js/2.d6602d8d.chunk.js.LICENSE.txt": "/static/js/2.d6602d8d.chunk.js.LICENSE.txt",
+    "static/css/2.5e5cd1c2.chunk.css.map": "/static/css/2.5e5cd1c2.chunk.css.map",
+    "static/css/main.5c224b48.chunk.css.map": "/static/css/main.5c224b48.chunk.css.map",
+    "static/js/2.29941b7d.chunk.js.LICENSE.txt": "/static/js/2.29941b7d.chunk.js.LICENSE.txt",
     "static/media/protocol.css": "/static/media/white.a38e6040.svg",
     "static/media/protocol-extra.css": "/static/media/zap-18.0715206a.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.30bd71b1.js",
-    "static/css/2.c78a9ef0.chunk.css",
-    "static/js/2.d6602d8d.chunk.js",
-    "static/css/main.1c4b7d46.chunk.css",
-    "static/js/main.c846db8a.chunk.js"
+    "static/js/runtime-main.70133997.js",
+    "static/css/2.5e5cd1c2.chunk.css",
+    "static/js/2.29941b7d.chunk.js",
+    "static/css/main.5c224b48.chunk.css",
+    "static/js/main.85cee6f8.chunk.js"
   ]
 }
