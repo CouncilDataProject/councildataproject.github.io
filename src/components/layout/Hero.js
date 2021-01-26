@@ -13,7 +13,7 @@ export default function Hero() {
 
             <div className="mzp-c-hero-desc">
               <p>
-                A unified resource to stay up-to-date on council action.
+                Transparency and accessibility in council action.
                 <br />
                 <br />
                 Videos, transcripts, voting records, and legislation

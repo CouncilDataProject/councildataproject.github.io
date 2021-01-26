@@ -1,4 +1,5 @@
 import React from "react";
+import StepList from "./StepList";
 
 export default function Contributing() {
   return (
@@ -29,6 +30,13 @@ export default function Contributing() {
               </a>
               .
             </p>
+            <p>
+              And don't worry, all CDP libraries are available under MIT
+              License.
+            </p>
+            <h3>How CDP Works</h3>
+            <StepList />
+            <h3>Our Tools</h3>
             <dl class="mzp-u-list-styled">
               <dt>
                 <a
@@ -52,9 +60,9 @@ export default function Contributing() {
                 </a>
               </dt>
               <dd>
-                Contains all of the components used by the web apps to be hosted
-                on GitHub Pages. Contributions here will propagate to all CDP
-                instances. Entirely written in TypeScript and React.
+                Contains all of the components used by the web applications to
+                be hosted on GitHub Pages. Contributions here will propagate to
+                all CDP instances. Entirely written in TypeScript and React.
               </dd>
               <dt>
                 <a
@@ -78,24 +86,20 @@ export default function Contributing() {
                 </a>
               </dt>
               <dd>
-                A template to be used by the Python{" "}
-                <a
-                  class="cdp-link"
-                  href="https://github.com/cookiecutter/cookiecutter"
-                >
-                  cookiecutter
-                </a>{" "}
-                package to create an entirely new deployment repository. This is
-                where <em>cdp-backend</em> and <em>cdp-frontend</em> are
-                imported and used. If you would like to create a new deployment
-                under the <em>councildataproject</em> domain please log a{" "}
+                A template for creating an entirely new CDP instance. This
+                single template will create a GitHub repository to host and
+                manage all database infrastructure, run and schedule all
+                pipelines, and host your deployment's website. This is where{" "}
+                <em>cdp-backend</em> and <em>cdp-frontend</em> are imported and
+                used. If you would like to create a new deployment under the{" "}
+                <em>councildataproject</em> domain please create a{" "}
                 <a
                   class="cdp-link"
                   href="https://github.com/CouncilDataProject/councildataproject.github.io/issues"
                 >
                   GitHub issue
-                </a>
-                .
+                </a>{" "}
+                and we will help to get you set up.
               </dd>
               <dt>
                 <a

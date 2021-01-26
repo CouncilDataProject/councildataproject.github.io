@@ -14,7 +14,7 @@ export default function Instances() {
 
   return (
     <>
-      <div id="instances" className="cdp-bg-light-gray">
+      <div id="instances" className="cdp-bg-light-grey">
         <div className="mzp-l-content mzp-t-content-xl">
           <h1 className="mzp-c-article-title">CDP Instances</h1>
           <p>All currently maintained Council Data Project instances.</p>

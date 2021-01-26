@@ -5,7 +5,7 @@
 
 .steps .step-index { 
   position: relative;
-  color: #ccc;
+  color: #2e2e2e;
   padding: 0 1.5em;
   font-family: 'Courier New', Courier, monospace;
 }
@@ -21,7 +21,11 @@
    z-index: 1;
    left: 0;
    height: 100%;
-   border-left: 1px #ccc solid;
+   border-left: 1px #2e2e2e solid;
+}
+
+.steps li:last-child .step-description {
+  padding: 0 1.5em 0 1.5em;
 }
 
 .steps strong {
@@ -29,7 +33,7 @@
    font-weight: bolder;
 }
 
-.steps { margin: 1em; }
+.steps { margin: 40px auto 40px auto; }
 .steps,
 .steps *::before,
 .steps *::after { box-sizing: border-box; }
