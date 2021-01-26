@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import MediaQuery from "react-responsive";
 
-function Navitems({ Links }) {
+function NavItems({ links }) {
   return (
     <div className="mzp-c-navigation-items" id="navigation-demo">
       {/* show github link only in PC view */}
@@ -20,7 +20,7 @@ function Navitems({ Links }) {
       <div className="mzp-c-navigation-container" aria-expanded="false">
         <nav className="mzp-c-menu mzp-is-basic">
           <ul className="mzp-c-menu-category-list">
-            {Links.map((item) => {
+            {links.map((item) => {
               return (
                 <li className="mzp-c-menu-category">
                   <a className="mzp-c-menu-title" href={item.to}>
@@ -36,7 +36,7 @@ function Navitems({ Links }) {
   );
 }
 
-export default function Navigation({ NavLinks }) {
+export default function Navigation({ links }) {
   // state to show menu in mobile view
   const [mmenu, setMmenu] = useState(false);
 
@@ -70,11 +70,11 @@ export default function Navigation({ NavLinks }) {
               >
                 Menu
               </button>
-              {mmenu ? <Navitems Links={NavLinks} /> : <></>}
+              {mmenu ? <NavItems links={links} /> : <></>}
             </MediaQuery>
             {/* PC screen view */}
             <MediaQuery query="(min-width: 768px)">
-              <Navitems Links={NavLinks} />
+              <NavItems links={links} />
             </MediaQuery>
           </div>
         </div>
