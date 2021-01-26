@@ -11,7 +11,7 @@ project and acts as a transfer site for supported instances.
 
 Council Data Project is an open-source project dedicated to providing journalists,
 activists, researchers, and all members of each community we serve with the tools they
-need to stay informed and hold their Council Members accountable.
+need to stay informed and hold their councilmembers accountable.
 
 For more information about CouncilDataProject, please visit
 [our website](https://councildataproject.github.io/).
