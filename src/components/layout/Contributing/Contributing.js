@@ -140,6 +140,13 @@ export default function Contributing() {
                 Hawk Ticehurst
               </a>{" "}
               (Frontend Development),{" "}
+              <a
+                class="cdp-link"
+                href="https://www.linkedin.com/in/brianjledbetter/"
+              >
+                Brian Ledbetter
+              </a>{" "}
+              (Frontend Development),{" "}
               <a class="cdp-link" href="https://www.katlynmfgreene.com/">
                 Katlyn M.F. Greene
               </a>{" "}
