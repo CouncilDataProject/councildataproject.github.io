@@ -3,7 +3,6 @@ import "@mozilla-protocol/core/protocol/css/protocol-extra.css";
 import "@councildataproject/cdp-design/dist/colors.css";
 import "@councildataproject/cdp-design/dist/images.css";
 import "@councildataproject/cdp-design/dist/text.css";
-import ReactGA from "react-ga";
 
 //Import Components
 import Navigation from "./components/layout/Navigation";
@@ -12,9 +11,6 @@ import About from "./components/layout/About";
 import Instances from "./components/layout/Instances/Instances";
 import Contributing from "./components/layout/Contributing/Contributing";
 import Footer from "./components/layout/Footer";
-
-// Run Google Analytics
-ReactGA.initialize("UA-108611658-2");
 
 function App() {
   return (
