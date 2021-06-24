@@ -19,13 +19,16 @@ export default function Contributing() {
               If you would like to contribute in any of these areas, please
               reach out on{" "}
               <a
-                class="cdp-link"
+                className="cdp-link"
                 href="https://www.democracylab.org/index/?section=AboutProject&id=145"
               >
                 DemocracyLab
               </a>{" "}
               or simply start tackling issues in one of our{" "}
-              <a class="cdp-link" href="https://github.com/CouncilDataProject">
+              <a
+                className="cdp-link"
+                href="https://github.com/CouncilDataProject"
+              >
                 GitHub repositories
               </a>
               .
@@ -37,10 +40,10 @@ export default function Contributing() {
             <h3>How CDP Works</h3>
             <StepList />
             <h3>Our Tools</h3>
-            <dl class="mzp-u-list-styled">
+            <dl className="mzp-u-list-styled">
               <dt>
                 <a
-                  class="cdp-link"
+                  className="cdp-link"
                   href="https://github.com/CouncilDataProject/cdp-backend"
                 >
                   cdp-backend
@@ -53,7 +56,7 @@ export default function Contributing() {
               </dd>
               <dt>
                 <a
-                  class="cdp-link"
+                  className="cdp-link"
                   href="https://github.com/CouncilDataProject/cdp-frontend"
                 >
                   cdp-frontend
@@ -66,7 +69,7 @@ export default function Contributing() {
               </dd>
               <dt>
                 <a
-                  class="cdp-link"
+                  className="cdp-link"
                   href="https://github.com/CouncilDataProject/cdp-design"
                 >
                   cdp-design
@@ -79,7 +82,7 @@ export default function Contributing() {
               </dd>
               <dt>
                 <a
-                  class="cdp-link"
+                  className="cdp-link"
                   href="https://github.com/CouncilDataProject/cookiecutter-cdp-deployment"
                 >
                   cookiecutter-cdp-deployment
@@ -94,7 +97,7 @@ export default function Contributing() {
                 used. If you would like to create a new deployment under the{" "}
                 <em>councildataproject</em> domain please create a{" "}
                 <a
-                  class="cdp-link"
+                  className="cdp-link"
                   href="https://github.com/CouncilDataProject/councildataproject.github.io/issues"
                 >
                   GitHub issue
@@ -103,7 +106,7 @@ export default function Contributing() {
               </dd>
               <dt>
                 <a
-                  class="cdp-link"
+                  className="cdp-link"
                   href="https://github.com/CouncilDataProject/councildataproject.github.io"
                 >
                   councildataproject.github.io
@@ -117,46 +120,46 @@ export default function Contributing() {
             <h3>Contributors</h3>
             <p>
               Council Data Project was created by{" "}
-              <a class="cdp-link" href="https://jacksonmaxfield.github.io/">
+              <a className="cdp-link" href="https://jacksonmaxfield.github.io/">
                 Jackson Maxfield Brown
               </a>{" "}
               and{" "}
-              <a class="cdp-link" href="https://nicweber.info/">
+              <a className="cdp-link" href="https://nicweber.info/">
                 Nic Weber
               </a>
               .
             </p>
             <p>
               There have been major contributions from:{" "}
-              <a class="cdp-link" href="https://github.com/tohuynh">
+              <a className="cdp-link" href="https://github.com/tohuynh">
                 To Huynh
               </a>{" "}
               (Full Stack Development),{" "}
-              <a class="cdp-link" href="https://www.isaacna.com/">
+              <a className="cdp-link" href="https://www.isaacna.com/">
                 Isaac Na
               </a>{" "}
               (Backend Development),{" "}
-              <a class="cdp-link" href="https://hawkticehurst.com/">
+              <a className="cdp-link" href="https://hawkticehurst.com/">
                 Hawk Ticehurst
               </a>{" "}
               (Frontend Development),{" "}
               <a
-                class="cdp-link"
+                className="cdp-link"
                 href="https://www.linkedin.com/in/brianjledbetter/"
               >
                 Brian Ledbetter
               </a>{" "}
               (Frontend Development),{" "}
-              <a class="cdp-link" href="https://www.katlynmfgreene.com/">
+              <a className="cdp-link" href="https://www.katlynmfgreene.com/">
                 Katlyn M.F. Greene
               </a>{" "}
               (UX Research),{" "}
-              <a class="cdp-link" href="https://www.emilygilles.design/">
+              <a className="cdp-link" href="https://www.emilygilles.design/">
                 Emily Gilles
               </a>{" "}
               (UX Design), and{" "}
               <a
-                class="cdp-link"
+                className="cdp-link"
                 href="https://www.linkedin.com/in/madeleine-farrer-14a1a3118/"
               >
                 Madeleine Farrer
@@ -167,7 +170,7 @@ export default function Contributing() {
               Much of our second prototype can be attributed to the voluteers
               from{" "}
               <a
-                class="cdp-link"
+                className="cdp-link"
                 href="https://medium.com/democracylab-org/textio-engages-employees-to-accelerate-civic-innovation-5984609a95ce"
               >
                 Textio
@@ -177,7 +180,7 @@ export default function Contributing() {
             <p>
               Many volunteers and contributors have found the project through{" "}
               <a
-                class="cdp-link"
+                className="cdp-link"
                 href="https://www.democracylab.org/index/?section=Home"
               >
                 DemocracyLab

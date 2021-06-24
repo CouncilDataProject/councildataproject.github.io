@@ -19,7 +19,7 @@ export default function Instances() {
           <h1 className="mzp-c-article-title">CDP Instances</h1>
           <p>All currently maintained Council Data Project instances.</p>
           {instancesData.map((instance) => (
-            <div className="mzp-l-card-third">
+            <div key={instance.linkUrl} className="mzp-l-card-third">
               <Instance data={instance} />
             </div>
           ))}

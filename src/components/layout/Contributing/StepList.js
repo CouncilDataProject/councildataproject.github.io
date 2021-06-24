@@ -12,14 +12,14 @@ export default function StepList() {
             Providing new event information to CDP processing pipelines can be
             as simple as providing{" "}
             <a
-              class="cdp-link"
+              className="cdp-link"
               href="https://councildataproject.github.io/cdp-backend/ingestion_models.html#minimal-event-data"
             >
               a URL to a meeting recording
             </a>{" "}
             or as expansive as{" "}
             <a
-              class="cdp-link"
+              className="cdp-link"
               href="https://councildataproject.github.io/cdp-backend/ingestion_models.html#expanded-event-data-with-event-minutes-items"
             >
               attaching all minutes items and vote information
@@ -30,7 +30,7 @@ export default function StepList() {
             In many cases, gathering event information can be quite simple as
             hundreds of cities and counties across the US{" "}
             <a
-              class="cdp-link"
+              className="cdp-link"
               href="https://granicus.com/solution/govmeetings/"
             >
               all use the same system
