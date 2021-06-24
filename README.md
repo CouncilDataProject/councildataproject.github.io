@@ -1,4 +1,4 @@
-# councildataproject.github.io
+# councildataproject.github.io / councildataproject.org
 
 [![Deployment Status](https://github.com/CouncilDataProject/councildataproject.github.io/workflows/Build%20and%20Deploy/badge.svg)](https://github.com/CouncilDataProject/councildataproject.github.io/actions)
 
@@ -18,7 +18,7 @@ For more information about CouncilDataProject, please visit
 
 ## About
 
-`councildataproject.github.io` is our landing page! It contains
+`councildataproject.org` is our landing page! It contains
 more in-depth information and details about the project than the individual
 repo README files.
 
