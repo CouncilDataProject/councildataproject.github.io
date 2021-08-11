@@ -1,6 +1,6 @@
 # councildataproject.org
 
-[![Deployment Status](https://github.com/CouncilDataProject/cdp-homepage/workflows/Build%20and%20Deploy/badge.svg)](https://github.com/CouncilDataProject/cdp-homepage/actions)
+[![Deployment Status](https://github.com/CouncilDataProject/councildataproject.github.io/workflows/Build%20and%20Deploy/badge.svg)](https://github.com/CouncilDataProject/councildataproject.github.io/actions)
 
 The homepage for the Council Data Project organization. It contains information about the project and acts as a transfer site for supported instances.
 
