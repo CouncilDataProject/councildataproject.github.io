@@ -167,7 +167,7 @@ export default function Contributing() {
               (Logo Design).
             </p>
             <p>
-              Much of our second prototype can be attributed to the voluteers
+              Much of our second prototype can be attributed to the volunteers
               from{" "}
               <a
                 className="cdp-link"
