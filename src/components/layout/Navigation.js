@@ -46,10 +46,12 @@ export default function Navigation({ links }) {
         <div className="mzp-c-navigation-l-content">
           <div className="mzp-c-navigation-container">
             <div
-              className="cdp-icon-black-bg-transparent-size-64"
+              className="cdp-icon-black-bg-transparent-size-128"
               style={{
                 float: "left",
                 marginTop: "12px",
+                maxHeight: "64px",
+                maxWidth: "64px"
               }}
             >
               <a href="#top">CDP logo</a>
