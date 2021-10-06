@@ -46,7 +46,7 @@ export default function Navigation({ links }) {
         <div className="mzp-c-navigation-l-content">
           <div className="mzp-c-navigation-container">
             <div
-              className="cdp-icon-black-bg-transparent-size-128"
+              className="cdp-icon-black-bg-transparent-size-256"
               style={{
                 float: "left",
                 marginTop: "12px",
