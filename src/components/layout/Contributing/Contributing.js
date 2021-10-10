@@ -157,14 +157,21 @@ export default function Contributing() {
               <a className="cdp-link" href="https://www.emilygilles.design/">
                 Emily Gilles
               </a>{" "}
-              (UX Design), and{" "}
+              (UX Design),{" "}
               <a
                 className="cdp-link"
                 href="https://www.linkedin.com/in/madeleine-farrer-14a1a3118/"
               >
                 Madeleine Farrer
               </a>{" "}
-              (Logo Design).
+              (Logo Design), and{" "}
+              <a
+                className="cdp-link"
+                href="https://github.com/Shak2000"
+              >
+                Shak Ragoler
+              </a>{" "}
+              (Backend Developer).
             </p>
             <p>
               Much of our second prototype can be attributed to the volunteers
