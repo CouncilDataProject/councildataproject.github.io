@@ -107,6 +107,21 @@ export default function Contributing() {
               <dt>
                 <a
                   className="cdp-link"
+                  href="https://github.com/CouncilDataProject/cdp-scrapers"
+                >
+                  cdp-scrapers
+                </a>
+              </dt>
+              <dd>
+                A collection of utilities and in-progress or actively maintained 
+                CDP instance event scrapers. The purpose of this library is to 
+                help new CDP instance maintainers have a quick plethora of examples 
+                for getting started on developing their event scraper functions.
+              </dd>
+
+              <dt>
+                <a
+                  className="cdp-link"
                   href="https://github.com/CouncilDataProject/councildataproject.github.io"
                 >
                   councildataproject.github.io
