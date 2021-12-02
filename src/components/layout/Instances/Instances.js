@@ -11,13 +11,13 @@ export default function Instances() {
       title: "King County, Washington",
       metadata: "Maintained by the CDP Core Team",
     },
-    {
-      linkUrl: "https://councildataproject.github.io/seattle",
-      imageUrl: "imgs/seattle.jpg",
-      imageDescription: "Seattle skyline",
-      title: "City of Seattle, Washington",
-      metadata: "Maintained by the CDP Core Team",
-    },
+    // {
+    //   linkUrl: "https://councildataproject.github.io/seattle",
+    //   imageUrl: "imgs/seattle.jpg",
+    //   imageDescription: "Seattle skyline",
+    //   title: "City of Seattle, Washington",
+    //   metadata: "Maintained by the CDP Core Team",
+    // },
   ];
 
   return (
