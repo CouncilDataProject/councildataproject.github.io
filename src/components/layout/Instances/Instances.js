@@ -4,6 +4,13 @@ import Instance from "./Instance";
 export default function Instances() {
   const instancesData = [
     {
+      linkUrl: "https://councildataproject.github.io/seattle-staging",
+      imageUrl: "imgs/seattle.jpg",
+      imageDescription: "Seattle skyline",
+      title: "City of Seattle, Washington",
+      metadata: "Maintained by the CDP Core Team",
+    },
+    {
       linkUrl: "https://councildataproject.org/king-county",
       imageUrl: "imgs/kc.png",
       imageDescription:
@@ -11,13 +18,6 @@ export default function Instances() {
       title: "King County, Washington",
       metadata: "Maintained by the CDP Core Team",
     },
-    // {
-    //   linkUrl: "https://councildataproject.github.io/seattle",
-    //   imageUrl: "imgs/seattle.jpg",
-    //   imageDescription: "Seattle skyline",
-    //   title: "City of Seattle, Washington",
-    //   metadata: "Maintained by the CDP Core Team",
-    // },
   ];
 
   return (
