@@ -179,14 +179,21 @@ export default function Contributing() {
               >
                 Madeleine Farrer
               </a>{" "}
-              (Logo Design), and{" "}
+              (Logo Design),{" "}
               <a
                 className="cdp-link"
                 href="https://github.com/Shak2000"
               >
                 Shak Ragoler
               </a>{" "}
-              (Backend Developer).
+              (Backend Developer), and{" "}
+              <a
+                className="cdp-link"
+                href="https://www.linkedin.com/in/sarah-liu-28180b1a4/"
+              >
+                Sarah Liu
+              </a>{" "}
+              (Product Manager).
             </p>
             <p>
               Much of our second prototype can be attributed to the volunteers
