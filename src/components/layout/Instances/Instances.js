@@ -25,6 +25,13 @@ export default function Instances() {
       title: "City of Portland, Oregon",
       metadata: "Maintained by the CDP Core Team",
     },
+    {
+      linkUrl: "https://www.openmontana.org/missoula-council-data-project",
+      imageUrl: "imgs/missoula.jpg",
+      imageDescription: "Missoula Skyline",
+      title: "City of Missoula, Montana",
+      metadata: "Maintained by Open Montana",
+    },
   ];
 
   return (
