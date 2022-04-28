@@ -3,7 +3,7 @@
   display: flex;
 }
 
-.steps .step-index { 
+.steps .step-index {
   position: relative;
   color: #2e2e2e;
   padding: 0 1.5em;
@@ -16,12 +16,12 @@
 }
 
 .steps .step-description::before {
-   content: "";
-   position: absolute;
-   z-index: 1;
-   left: 0;
-   height: 100%;
-   border-left: 1px #2e2e2e solid;
+  content: '';
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  height: 100%;
+  border-left: 1px #2e2e2e solid;
 }
 
 .steps li:last-child .step-description {
@@ -29,11 +29,15 @@
 }
 
 .steps strong {
-   display: block;
-   font-weight: bolder;
+  display: block;
+  font-weight: bolder;
 }
 
-.steps { margin: 40px auto 40px auto; }
+.steps {
+  margin: 40px auto 40px auto;
+}
 .steps,
 .steps *::before,
-.steps *::after { box-sizing: border-box; }
+.steps *::after {
+  box-sizing: border-box;
+}

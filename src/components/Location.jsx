@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 export default function Location(props) {
   const { linkUrl, imageUrl, imageDescription, title, metadata } = props.data;
@@ -11,7 +11,7 @@ export default function Location(props) {
             className="mzp-c-card-image"
             src={imageUrl}
             alt={imageDescription}
-            style={{ height: "220px", objectFit: "cover" }}
+            style={{ height: '220px', objectFit: 'cover' }}
           />
         </div>
         <div className="mzp-c-card-content">

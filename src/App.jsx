@@ -1,14 +1,14 @@
-import "@mozilla-protocol/core/protocol/css/protocol.css";
-import "@mozilla-protocol/core/protocol/css/protocol-extra.css";
-import "@councildataproject/cdp-design/dist/colors.css";
-import "@councildataproject/cdp-design/dist/images.css";
-import "@councildataproject/cdp-design/dist/text.css";
-import Navigation from "./components/Navigation";
-import Hero from "./components/Hero";
-import About from "./components/About";
-import Instances from "./components/Locations";
-import Contributing from "./components/contributing/Contributing";
-import Footer from "./components/Footer";
+import '@mozilla-protocol/core/protocol/css/protocol.css';
+import '@mozilla-protocol/core/protocol/css/protocol-extra.css';
+import '@councildataproject/cdp-design/dist/colors.css';
+import '@councildataproject/cdp-design/dist/images.css';
+import '@councildataproject/cdp-design/dist/text.css';
+import Navigation from './components/Navigation';
+import Hero from './components/Hero';
+import About from './components/About';
+import Instances from './components/Locations';
+import Contributing from './components/contributing/Contributing';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -16,16 +16,16 @@ function App() {
       <Navigation
         links={[
           {
-            name: "About",
-            to: "#about",
+            name: 'About',
+            to: '#about',
           },
           {
-            name: "Instances",
-            to: "#instances",
+            name: 'Instances',
+            to: '#instances',
           },
           {
-            name: "Contributing",
-            to: "#contributing",
+            name: 'Contributing',
+            to: '#contributing',
           },
         ]}
       />

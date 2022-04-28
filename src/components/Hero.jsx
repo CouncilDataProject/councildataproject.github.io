@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 export default function Hero() {
   return (
@@ -8,7 +8,9 @@ export default function Hero() {
     >
       <div className="mzp-l-content mzp-t-content-xl">
         <div className="mzp-c-hero-body">
-          <h1 className="mzp-c-hero-title">A search engine for local government.</h1>
+          <h1 className="mzp-c-hero-title">
+            A search engine for local government.
+          </h1>
         </div>
       </div>
 

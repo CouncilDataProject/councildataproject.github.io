@@ -1,36 +1,36 @@
-import React from "react";
-import Location from "./Location";
+import React from 'react';
+import Location from './Location';
 
 export default function Locations() {
   const locationsData = [
     {
-      linkUrl: "https://councildataproject.org/seattle",
-      imageUrl: "imgs/seattle.jpg",
-      imageDescription: "Seattle skyline",
-      title: "City of Seattle, Washington",
-      metadata: "Maintained by the CDP Core Team",
+      linkUrl: 'https://councildataproject.org/seattle',
+      imageUrl: 'imgs/seattle.jpg',
+      imageDescription: 'Seattle skyline',
+      title: 'City of Seattle, Washington',
+      metadata: 'Maintained by the CDP Core Team',
     },
     {
-      linkUrl: "https://councildataproject.org/king-county",
-      imageUrl: "imgs/kc.png",
+      linkUrl: 'https://councildataproject.org/king-county',
+      imageUrl: 'imgs/kc.png',
       imageDescription:
-        "King County, Pudet Sound, Lake Washington, and Mt. Rainier",
-      title: "King County, Washington",
-      metadata: "Maintained by the CDP Core Team",
+        'King County, Pudet Sound, Lake Washington, and Mt. Rainier',
+      title: 'King County, Washington',
+      metadata: 'Maintained by the CDP Core Team',
     },
     {
-      linkUrl: "https://councildataproject.org/portland",
-      imageUrl: "imgs/portland.jpg",
-      imageDescription: "Portland Downtown Waterfront",
-      title: "City of Portland, Oregon",
-      metadata: "Maintained by the CDP Core Team",
+      linkUrl: 'https://councildataproject.org/portland',
+      imageUrl: 'imgs/portland.jpg',
+      imageDescription: 'Portland Downtown Waterfront',
+      title: 'City of Portland, Oregon',
+      metadata: 'Maintained by the CDP Core Team',
     },
     {
-      linkUrl: "https://www.openmontana.org/missoula-council-data-project",
-      imageUrl: "imgs/missoula.jpg",
-      imageDescription: "Missoula Skyline",
-      title: "City of Missoula, Montana",
-      metadata: "Maintained by Open Montana",
+      linkUrl: 'https://www.openmontana.org/missoula-council-data-project',
+      imageUrl: 'imgs/missoula.jpg',
+      imageDescription: 'Missoula Skyline',
+      title: 'City of Missoula, Montana',
+      metadata: 'Maintained by Open Montana',
     },
   ];
 

@@ -1,5 +1,5 @@
-import React from "react";
-import StepList from "./StepList";
+import React from 'react';
+import StepList from './StepList';
 
 export default function Contributing() {
   return (
@@ -17,14 +17,14 @@ export default function Contributing() {
             </p>
             <p>
               If you would like to contribute in any of these areas, please
-              reach out on{" "}
+              reach out on{' '}
               <a
                 className="cdp-link"
                 href="https://www.democracylab.org/index/?section=AboutProject&id=145"
               >
                 DemocracyLab
-              </a>{" "}
-              or simply start tackling issues in one of our{" "}
+              </a>{' '}
+              or simply start tackling issues in one of our{' '}
               <a
                 className="cdp-link"
                 href="https://github.com/CouncilDataProject"
@@ -92,16 +92,16 @@ export default function Contributing() {
                 A template for creating an entirely new CDP instance. This
                 single template will create a GitHub repository to host and
                 manage all database infrastructure, run and schedule all
-                pipelines, and host your deployment's website. This is where{" "}
+                pipelines, and host your deployment's website. This is where{' '}
                 <em>cdp-backend</em> and <em>cdp-frontend</em> are imported and
-                used. If you would like to create a new deployment under the{" "}
-                <em>councildataproject</em> domain please create a{" "}
+                used. If you would like to create a new deployment under the{' '}
+                <em>councildataproject</em> domain please create a{' '}
                 <a
                   className="cdp-link"
                   href="https://github.com/CouncilDataProject/councildataproject.github.io/issues"
                 >
                   GitHub issue
-                </a>{" "}
+                </a>{' '}
                 and we will help to get you set up.
               </dd>
               <dt>
@@ -259,7 +259,7 @@ export default function Contributing() {
             </ul>
             <p>
               Much of our second prototype can be attributed to the volunteers
-              from{" "}
+              from{' '}
               <a
                 className="cdp-link"
                 href="https://medium.com/democracylab-org/textio-engages-employees-to-accelerate-civic-innovation-5984609a95ce"
@@ -269,7 +269,7 @@ export default function Contributing() {
               .
             </p>
             <p>
-              Many volunteers and contributors have found the project through{" "}
+              Many volunteers and contributors have found the project through{' '}
               <a
                 className="cdp-link"
                 href="https://www.democracylab.org/index/?section=Home"

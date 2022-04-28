@@ -1,5 +1,5 @@
-import React from "react";
-import "./steps.css";
+import React from 'react';
+import './steps.css';
 
 export default function StepList() {
   return (
@@ -10,14 +10,14 @@ export default function StepList() {
           <span className="step-description">
             <strong>Gather Events</strong>
             Providing new event information to CDP processing pipelines can be
-            as simple as providing{" "}
+            as simple as providing{' '}
             <a
               className="cdp-link"
               href="https://councildataproject.github.io/cdp-backend/ingestion_models.html#minimal-event-data"
             >
               a URL to a meeting recording
-            </a>{" "}
-            or as expansive as{" "}
+            </a>{' '}
+            or as expansive as{' '}
             <a
               className="cdp-link"
               href="https://councildataproject.github.io/cdp-backend/ingestion_models.html#expanded-event-data-with-event-minutes-items"
@@ -28,13 +28,13 @@ export default function StepList() {
             <br />
             <br />
             In many cases, gathering event information can be quite simple as
-            hundreds of cities and counties across the US{" "}
+            hundreds of cities and counties across the US{' '}
             <a
               className="cdp-link"
               href="https://granicus.com/solution/govmeetings/"
             >
               all use the same system
-            </a>{" "}
+            </a>{' '}
             for tracking municipal council meeting and legislation information.
             <br />
             <br />

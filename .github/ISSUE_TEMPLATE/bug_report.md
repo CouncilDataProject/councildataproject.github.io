@@ -29,5 +29,5 @@ _If applicable, add screenshots to help explain your problem._
 
 _Any additional information about your environment._
 
--   OS Version: _[e.g. macOS 11.3.1]_
--   Browser Version: _[e.g. Chrome 89.0]_
+- OS Version: _[e.g. macOS 11.3.1]_
+- Browser Version: _[e.g. Chrome 89.0]_

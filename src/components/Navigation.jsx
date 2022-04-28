@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import MediaQuery from "react-responsive";
+import React, { useState } from 'react';
+import MediaQuery from 'react-responsive';
 
 function NavItems({ links }) {
   return (
@@ -48,10 +48,10 @@ export default function Navigation({ links }) {
             <div
               className="cdp-icon-black-bg-transparent-size-256"
               style={{
-                float: "left",
-                marginTop: "12px",
-                maxHeight: "64px",
-                maxWidth: "64px"
+                float: 'left',
+                marginTop: '12px',
+                maxHeight: '64px',
+                maxWidth: '64px',
               }}
             >
               <a href="#top">CDP logo</a>
@@ -60,7 +60,7 @@ export default function Navigation({ links }) {
             <MediaQuery query="(max-width: 767px)">
               <button
                 className="mzp-c-navigation-menu-button"
-                style={{ display: "inline" }}
+                style={{ display: 'inline' }}
                 type="button"
                 onClick={() => {
                   if (mmenu) {
