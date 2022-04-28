@@ -6,7 +6,7 @@
   "scripts": {
     "start": "vite",
     "build": "vite build",
-    "deploy": "npm run build && gh-pages -d build",
+    "deploy": "npm run build && gh-pages -d dist",
     "lint": "eslint --ignore-path .gitignore .",
     "fmt": "prettier --config ./.prettierrc --check \"**/*.{html,css,js,jsx,md}\"",
     "fmt:fix": "prettier --config ./.prettierrc --write \"**/*.{html,css,js,jsx,md}\"",
