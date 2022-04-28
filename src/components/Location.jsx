@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Instance(props) {
+export default function Location(props) {
   const { linkUrl, imageUrl, imageDescription, title, metadata } = props.data;
 
   return (

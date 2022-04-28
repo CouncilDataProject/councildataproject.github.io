@@ -3,14 +3,12 @@ import "@mozilla-protocol/core/protocol/css/protocol-extra.css";
 import "@councildataproject/cdp-design/dist/colors.css";
 import "@councildataproject/cdp-design/dist/images.css";
 import "@councildataproject/cdp-design/dist/text.css";
-
-//Import Components
-import Navigation from "./components/layout/Navigation";
-import Hero from "./components/layout/Hero";
-import About from "./components/layout/About";
-import Instances from "./components/layout/Instances/Instances";
-import Contributing from "./components/layout/Contributing/Contributing";
-import Footer from "./components/layout/Footer";
+import Navigation from "./components/Navigation";
+import Hero from "./components/Hero";
+import About from "./components/About";
+import Instances from "./components/Locations";
+import Contributing from "./components/contributing/Contributing";
+import Footer from "./components/Footer";
 
 function App() {
   return (

@@ -1,8 +1,8 @@
 import React from "react";
-import Instance from "./Instance";
+import Location from "./Location";
 
-export default function Instances() {
-  const instancesData = [
+export default function Locations() {
+  const locationsData = [
     {
       linkUrl: "https://councildataproject.org/seattle",
       imageUrl: "imgs/seattle.jpg",
@@ -38,11 +38,11 @@ export default function Instances() {
     <>
       <div id="instances" className="cdp-bg-light-grey">
         <div className="mzp-l-content mzp-t-content-xl">
-          <h1 className="mzp-c-article-title">CDP Instances</h1>
-          <p>All currently maintained Council Data Project instances.</p>
+          <h1 className="mzp-c-article-title">Locations</h1>
+          <p>All currently maintained Council Data Project locations.</p>
           <div className="mzp-l-card-third">
-            {instancesData.map((instance) => (
-              <Instance key={instance.linkUrl} data={instance} />
+            {locationsData.map((instance) => (
+              <Location key={instance.linkUrl} data={instance} />
             ))}
           </div>
         </div>
