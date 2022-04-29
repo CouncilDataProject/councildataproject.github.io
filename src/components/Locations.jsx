@@ -12,9 +12,9 @@ export default function Locations() {
     },
     {
       linkUrl: 'https://councildataproject.org/king-county',
-      imageUrl: 'imgs/kc.png',
+      imageUrl: 'imgs/king-county.png',
       imageDescription:
-        'King County, Pudet Sound, Lake Washington, and Mt. Rainier',
+        'King County, Puget Sound, Lake Washington, and Mt. Rainier',
       title: 'King County, Washington',
       metadata: 'Maintained by the CDP Core Team',
     },
