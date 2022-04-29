@@ -35,18 +35,21 @@ export default function Locations() {
   ];
 
   return (
-    <>
-      <div id="instances" className="cdp-bg-light-grey">
-        <div className="mzp-l-content mzp-t-content-xl">
-          <h1 className="mzp-c-article-title">Locations</h1>
-          <p>All currently maintained Council Data Project locations.</p>
-          <div className="mzp-l-card-third">
-            {locationsData.map((instance) => (
-              <Location key={instance.linkUrl} data={instance} />
-            ))}
-          </div>
+    <section
+      id="locations"
+      className="cdp-bg-light-grey"
+      style={{ padding: '2rem 0' }}>
+      <div className="mzp-l-content mzp-t-content-xl">
+        <h1 className="mzp-c-article-title">Locations</h1>
+        <p style={{ marginBottom: '4rem' }}>
+          All currently maintained Council Data Project locations.
+        </p>
+        <div className="mzp-l-card-third">
+          {locationsData.map((instance) => (
+            <Location key={instance.linkUrl} data={instance} />
+          ))}
         </div>
       </div>
-    </>
+    </section>
   );
 }
