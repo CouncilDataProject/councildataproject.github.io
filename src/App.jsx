@@ -20,8 +20,8 @@ function App() {
             to: '#about',
           },
           {
-            name: 'Instances',
-            to: '#instances',
+            name: 'Locations',
+            to: '#locations',
           },
           {
             name: 'Contributing',
