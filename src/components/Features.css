@@ -1,11 +1,11 @@
 #search-transcripts-feature::before {
-  background: url('icons/search-outline.svg');
+  background: url('imgs/search-outline.svg');
 }
 
 #track-legislation-feature::before {
-  background: url('icons/document-outline.svg');
+  background: url('imgs/document-outline.svg');
 }
 
 #voting-history-feature::before {
-  background: url('icons/time-outline.svg');
+  background: url('imgs/time-outline.svg');
 }
