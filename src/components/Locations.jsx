@@ -1,7 +1,7 @@
 import React from 'react';
-import Location from './Location';
+import { Location } from './Location';
 
-export default function Locations() {
+export function Locations() {
   const locationsData = [
     {
       linkUrl: 'https://councildataproject.org/seattle',
@@ -32,6 +32,13 @@ export default function Locations() {
       title: 'City of Missoula, Montana',
       metadata: 'Maintained by Open Montana',
     },
+    {
+      linkUrl: '#',
+      imageUrl: 'imgs/city-illustration.png',
+      imageDescription: 'An illustration of a city.',
+      title: 'Your Location?',
+      metadata: 'Want CDP for your location/council? Click this card!',
+    },
   ];
 
   return (
@@ -40,13 +47,13 @@ export default function Locations() {
       className="cdp-bg-light-grey"
       style={{ padding: '2rem 0' }}>
       <div className="mzp-l-content mzp-t-content-xl">
-        <h1 className="mzp-c-article-title">Locations</h1>
+        <h2 className="mzp-c-article-title">Locations</h2>
         <p style={{ marginBottom: '4rem' }}>
           All currently maintained Council Data Project locations.
         </p>
         <div className="mzp-l-card-third">
-          {locationsData.map((instance) => (
-            <Location key={instance.linkUrl} data={instance} />
+          {locationsData.map((location) => (
+            <Location key={location.linkUrl} data={location} />
           ))}
         </div>
       </div>
