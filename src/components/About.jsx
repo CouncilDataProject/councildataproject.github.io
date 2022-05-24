@@ -2,7 +2,10 @@ import React from 'react';
 
 export function About() {
   return (
-    <section id="about" className="mzp-l-content mzp-t-content-xl">
+    <section
+      id="about"
+      className="mzp-l-content mzp-t-content-xl"
+      style={{ marginTop: '4rem', marginBottom: '4rem' }}>
       <article className="mzp-c-article">
         <h2 className="mzp-c-article-title">
           Tools for a more accessible democracy
