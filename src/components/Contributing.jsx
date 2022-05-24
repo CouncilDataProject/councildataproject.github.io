@@ -1,5 +1,6 @@
 import React from 'react';
 import { ContributorList } from './ContributorList';
+import { DocsList } from './DocsList';
 
 export function Contributing() {
   return (
@@ -18,9 +19,21 @@ export function Contributing() {
             design, project management, research, and so on. We welcome all
             skill levels, and are excited to see what you can do!
           </p>
+        </article>
+        <article className="mzp-c-article" style={{ marginTop: '4rem' }}>
+          <h3>Documentation</h3>
+          <p>
+            Explore our guides/docs for getting started with the Council Data
+            Project.
+          </p>
+        </article>
+        <DocsList />
+        <article className="mzp-c-article" style={{ marginTop: '4rem' }}>
           <h3>Contributors</h3>
           <p>Council Data Project was created by:</p>
-          <ContributorList />
+        </article>
+        <ContributorList />
+        <article className="mzp-c-article">
           <p>
             Much of our second prototype can be attributed to the volunteers
             from{' '}
