@@ -106,7 +106,7 @@ function NavItems({ links }) {
       <div className="mzp-c-navigation-download">
         <div className="mzp-c-button-download-container">
           <a
-            href="#"
+            href="https://github.com/CouncilDataProject"
             className="mzp-c-button mzp-t-product mzp-t-product mzp-t-secondary mzp-t-md">
             GitHub
           </a>
