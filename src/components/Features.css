@@ -1,11 +1,27 @@
+#features-container {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    287deg,
+    rgb(251 167 232) 0%,
+    rgb(212 162 255) 35%,
+    rgb(108 230 255) 100%
+  );
+  /* background: linear-gradient(
+    287deg,
+    rgb(224 105 197) 0%,
+    rgb(182 121 235) 35%,
+    rgba(0, 212, 255, 1) 100%
+  ); */
+}
+
 #search-transcripts-feature::before {
-  background: url('imgs/search-outline.svg');
+  background: url('/search-outline.svg');
 }
 
 #track-legislation-feature::before {
-  background: url('imgs/document-outline.svg');
+  background: url('/document-outline.svg');
 }
 
 #voting-history-feature::before {
-  background: url('imgs/time-outline.svg');
+  background: url('/time-outline.svg');
 }
