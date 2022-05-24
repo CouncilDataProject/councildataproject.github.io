@@ -1,4 +1,5 @@
 import React from 'react';
+import './DocsList.css';
 
 export function ContributorList() {
   const contributors = [
@@ -95,14 +96,17 @@ export function ContributorList() {
   ];
 
   return (
-    <ul>
+    <section className="docs-list-container">
       {contributors.map((contributor) => (
-        <li key={contributor.linkUrl}>
-          <a className="cdp-link" href={contributor.linkUrl}>
-            {contributor.name} ({contributor.role})
-          </a>
-        </li>
+        <a
+          key={contributor.linkUrl}
+          className="cdp-doc-card"
+          style={{ textDecoration: 'none', color: '#000' }}
+          href={contributor.linkUrl}>
+          <p className="cdp-doc-card-title">{contributor.name}</p>
+          <p className="cdp-doc-card-description">{contributor.role}</p>
+        </a>
       ))}
-    </ul>
+    </section>
   );
 }
