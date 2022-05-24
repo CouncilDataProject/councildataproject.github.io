@@ -1,3 +1,17 @@
 html {
   scroll-behavior: smooth;
 }
+
+#locations {
+  background-image: url(https://www.mozilla.org/media/img/firefox/new/desktop/features/one.aac49bb315cd.svg),
+    url(https://www.mozilla.org/media/img/firefox/new/desktop/features/two.2288b2ea2289.svg),
+    url(https://www.mozilla.org/media/img/firefox/new/desktop/features/oval-one.e5b579c2974d.svg),
+    url(https://www.mozilla.org/media/img/firefox/new/desktop/features/oval-two.d289d7dc464a.svg),
+    url(https://www.mozilla.org/media/img/firefox/new/desktop/features/rect-one.26a762a93b9a.svg),
+    url(https://www.mozilla.org/media/img/firefox/new/desktop/features/rect-two.23f1fc8ac1a9.svg);
+
+  background-color: #f9f9fb;
+  background-position: 80% 63%, 0 0, bottom 10% right,
+    bottom left calc(50vw - 600px), bottom 30% left, 100% 0;
+  background-repeat: no-repeat;
+}
