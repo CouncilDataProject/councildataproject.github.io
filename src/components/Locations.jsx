@@ -47,7 +47,7 @@ export function Locations() {
       className="cdp-bg-light-grey"
       style={{ padding: '2rem 0' }}>
       <div className="mzp-l-content mzp-t-content-xl">
-        <h2 className="mzp-c-article-title">Locations</h2>
+        <h2 className="mzp-u-title-md">Locations</h2>
         <p style={{ marginBottom: '4rem' }}>
           All currently maintained Council Data Project locations.
         </p>
