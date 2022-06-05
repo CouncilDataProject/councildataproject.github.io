@@ -103,15 +103,6 @@ function NavLogo() {
 function NavItems({ links }) {
   return (
     <div className="mzp-c-navigation-items" id="navigation-menu">
-      <div className="mzp-c-navigation-download">
-        <div className="mzp-c-button-download-container">
-          <a
-            href="https://github.com/CouncilDataProject"
-            className="mzp-c-button mzp-t-product mzp-t-product mzp-t-secondary mzp-t-md">
-            GitHub
-          </a>
-        </div>
-      </div>
       <div className="mzp-c-navigation-menu">
         <nav className="mzp-c-menu mzp-is-basic">
           <ul className="mzp-c-menu-category-list">
@@ -126,6 +117,15 @@ function NavItems({ links }) {
             })}
           </ul>
         </nav>
+      </div>
+      <div className="mzp-c-navigation-download">
+        <div className="mzp-c-button-download-container">
+          <a
+            href="https://github.com/CouncilDataProject"
+            className="mzp-c-button mzp-t-product mzp-t-product mzp-t-secondary mzp-t-md">
+            GitHub
+          </a>
+        </div>
       </div>
     </div>
   );

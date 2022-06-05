@@ -5,7 +5,12 @@ export function About() {
     <section
       id="about"
       className="mzp-l-content mzp-t-content-xl"
-      style={{ marginTop: '4rem', marginBottom: '4rem' }}>
+      style={{
+        marginTop: '4rem',
+        marginBottom: '4rem',
+        display: 'flex',
+        justifyContent: 'center',
+      }}>
       <article className="mzp-c-article">
         <h2 className="mzp-c-article-title">
           Tools for a more accessible democracy

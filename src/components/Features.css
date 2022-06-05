@@ -1,17 +1,17 @@
 #features-container {
   background: rgb(2, 0, 36);
-  background: linear-gradient(
+  /* background: linear-gradient(
     287deg,
     rgb(251 167 232) 0%,
     rgb(212 162 255) 35%,
     rgb(108 230 255) 100%
-  );
-  /* background: linear-gradient(
-    287deg,
-    rgb(224 105 197) 0%,
-    rgb(182 121 235) 35%,
-    rgba(0, 212, 255, 1) 100%
   ); */
+  background: linear-gradient(
+    287deg,
+    #e069c5 0%,
+    #d070ed 35%,
+    #00d4ff 100%
+  );
 }
 
 #search-transcripts-feature::before {
