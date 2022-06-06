@@ -7,7 +7,7 @@ export default function Instances() {
       linkUrl: "https://councildataproject.org/seattle",
       imageUrl: "imgs/seattle.jpg",
       imageDescription: "Seattle skyline",
-      title: "City of Seattle, Washington",
+      title: "Seattle, Washington",
       metadata: "Maintained by the CDP Core Team",
     },
     {
@@ -22,15 +22,36 @@ export default function Instances() {
       linkUrl: "https://councildataproject.org/portland",
       imageUrl: "imgs/portland.jpg",
       imageDescription: "Portland Downtown Waterfront",
-      title: "City of Portland, Oregon",
+      title: "Portland, Oregon",
       metadata: "Maintained by the CDP Core Team",
     },
     {
       linkUrl: "https://www.openmontana.org/missoula-council-data-project",
       imageUrl: "imgs/missoula.jpg",
       imageDescription: "Missoula Skyline",
-      title: "City of Missoula, Montana",
+      title: "Missoula, Montana",
       metadata: "Maintained by Open Montana",
+    },
+    {
+      linkUrl: "https://councildataproject.org/denver",
+      imageUrl: "imgs/denver.jpg",
+      imageDescription: "Denver Skyline",
+      title: "Denver, Colorado",
+      metadata: "Maintained by the CDP Core Team",
+    },
+    {
+      linkUrl: "https://councildataproject.org/alameda",
+      imageUrl: "imgs/alameda.jpg",
+      imageDescription: "Alameda Theatre in Night",
+      title: "Alameda, California",
+      metadata: "Maintained by the CDP Core Team",
+    },
+    {
+      linkUrl: "https://councildataproject.org/boston",
+      imageUrl: "imgs/boston.jpg",
+      imageDescription: "Boston Skyline from the waterfront",
+      title: "Boston, Massachusetts",
+      metadata: "Maintained by the CDP Core Team",
     },
   ];
 
