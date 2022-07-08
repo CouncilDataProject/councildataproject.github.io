@@ -1,4 +1,3 @@
-import React from 'react';
 import { ContributorList } from './ContributorList';
 import { DocsList } from './DocsList';
 

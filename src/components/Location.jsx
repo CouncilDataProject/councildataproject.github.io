@@ -1,5 +1,3 @@
-import React from 'react';
-
 export function Location(props) {
   const { linkUrl, imageUrl, imageDescription, title, metadata } = props.data;
 
