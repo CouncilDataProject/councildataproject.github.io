@@ -1,3 +1,13 @@
+import './Navigation.css';
+
+// Developer note: I was never able to load the inline script from Mozilla
+// protocol that was needed to make this navigation bar work properly on
+// mobile devices. I think this has to do with React not playing nicely with
+// inline scripts.
+//
+// As a temporary solution I've included a bit of CSS that will simply hide
+// the navigation links on mobile devices.
+
 export function Navigation() {
   const navLinks = [
     {

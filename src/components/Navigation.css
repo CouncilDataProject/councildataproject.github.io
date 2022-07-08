@@ -1,0 +1,6 @@
+/* Hides the navigation links when on mobile screens. */
+@media (max-width: 768px) {
+  #navigation-menu {
+    display: none;
+  }
+}
