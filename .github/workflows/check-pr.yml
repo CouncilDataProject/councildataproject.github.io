@@ -3,7 +3,7 @@ name: Check PR
 on: pull_request
 
 jobs:
-  test:
+  lint:
     runs-on: ubuntu-latest
 
     steps:
@@ -15,9 +15,12 @@ jobs:
     - name: Install Dependencies
       run: |
         npm i
-    - name: Run Tests
+    - name: Run Linter
       run: |
-        CI=true npm run test
+        npm run lint
+    - name: Run Formatter
+      run: |
+        npm run fmt
 
   build:
     runs-on: ubuntu-latest
