@@ -8,7 +8,8 @@ export function About() {
         marginBottom: '4rem',
         display: 'flex',
         justifyContent: 'center',
-      }}>
+      }}
+    >
       <article className="mzp-c-article">
         <h2 className="mzp-c-article-title">
           Tools for a more accessible democracy

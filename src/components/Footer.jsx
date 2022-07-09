@@ -11,7 +11,8 @@ export function Footer() {
               Council Data Project contributors. Content available under{' '}
               <a
                 rel="license"
-                href="https://github.com/CouncilDataProject/councildataproject.github.io/blob/master/LICENSE">
+                href="https://github.com/CouncilDataProject/councildataproject.github.io/blob/master/LICENSE"
+              >
                 MIT License
               </a>
               .

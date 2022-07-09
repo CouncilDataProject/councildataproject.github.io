@@ -1,11 +1,6 @@
 #features-container {
   background: rgb(2, 0, 36);
-  background: linear-gradient(
-    287deg,
-    #e069c5 0%,
-    #d070ed 35%,
-    #00d4ff 100%
-  );
+  background: linear-gradient(287deg, #e069c5 0%, #d070ed 35%, #00d4ff 100%);
 }
 
 #search-transcripts-feature::before {

@@ -3,11 +3,15 @@ import './Features.css';
 export function Features() {
   return (
     <section className="mzp-l-content">
-      <div id="features-container" className="mzp-l-card-third mzp-c-emphasis-box">
+      <div
+        id="features-container"
+        className="mzp-l-card-third mzp-c-emphasis-box"
+      >
         <section className="mzp-c-card-picto">
           <div
             id="search-transcripts-feature"
-            className="mzp-c-card-picto-content">
+            className="mzp-c-card-picto-content"
+          >
             <h2 className="mzp-c-card-picto-title">
               Searchable meeting transcripts
             </h2>
@@ -19,7 +23,8 @@ export function Features() {
         <section className="mzp-c-card-picto ">
           <div
             id="track-legislation-feature"
-            className="mzp-c-card-picto-content">
+            className="mzp-c-card-picto-content"
+          >
             <h2 className="mzp-c-card-picto-title">
               Track legislation life cycle
             </h2>

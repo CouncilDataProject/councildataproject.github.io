@@ -32,25 +32,25 @@ export function Locations() {
       metadata: 'Maintained by Open Montana',
     },
     {
-      linkUrl: "https://councildataproject.org/denver",
-      imageUrl: "imgs/denver.jpg",
-      imageDescription: "Denver Skyline",
-      title: "Denver, Colorado",
-      metadata: "Maintained by the CDP Core Team",
+      linkUrl: 'https://councildataproject.org/denver',
+      imageUrl: 'imgs/denver.jpg',
+      imageDescription: 'Denver Skyline',
+      title: 'Denver, Colorado',
+      metadata: 'Maintained by the CDP Core Team',
     },
     {
-      linkUrl: "https://councildataproject.org/alameda",
-      imageUrl: "imgs/alameda.jpg",
-      imageDescription: "Alameda Theatre in Night",
-      title: "Alameda, California",
-      metadata: "Maintained by the CDP Core Team",
+      linkUrl: 'https://councildataproject.org/alameda',
+      imageUrl: 'imgs/alameda.jpg',
+      imageDescription: 'Alameda Theatre in Night',
+      title: 'Alameda, California',
+      metadata: 'Maintained by the CDP Core Team',
     },
     {
-      linkUrl: "https://councildataproject.org/boston",
-      imageUrl: "imgs/boston.jpg",
-      imageDescription: "Boston Skyline from the waterfront",
-      title: "Boston, Massachusetts",
-      metadata: "Maintained by the CDP Core Team",
+      linkUrl: 'https://councildataproject.org/boston',
+      imageUrl: 'imgs/boston.jpg',
+      imageDescription: 'Boston Skyline from the waterfront',
+      title: 'Boston, Massachusetts',
+      metadata: 'Maintained by the CDP Core Team',
     },
     {
       linkUrl: '#',
@@ -65,7 +65,8 @@ export function Locations() {
     <section
       id="locations"
       className="cdp-bg-light-grey"
-      style={{ padding: '2rem 0' }}>
+      style={{ padding: '2rem 0' }}
+    >
       <div className="mzp-l-content mzp-t-content-xl">
         <h2 className="mzp-u-title-md">Locations</h2>
         <p style={{ marginBottom: '4rem' }}>

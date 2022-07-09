@@ -43,7 +43,8 @@ export function DocsList() {
           key={contributor.linkUrl}
           className="cdp-doc-card"
           style={{ textDecoration: 'none', color: '#000' }}
-          href={contributor.linkUrl}>
+          href={contributor.linkUrl}
+        >
           <p className="cdp-doc-card-title">{contributor.title}</p>
           <p className="cdp-doc-card-description">{contributor.description}</p>
         </a>

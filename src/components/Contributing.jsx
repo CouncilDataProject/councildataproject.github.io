@@ -38,7 +38,8 @@ export function Contributing() {
             from{' '}
             <a
               className="cdp-link"
-              href="https://medium.com/democracylab-org/textio-engages-employees-to-accelerate-civic-innovation-5984609a95ce">
+              href="https://medium.com/democracylab-org/textio-engages-employees-to-accelerate-civic-innovation-5984609a95ce"
+            >
               Textio
             </a>
             .
@@ -47,7 +48,8 @@ export function Contributing() {
             Many volunteers and contributors have found the project through{' '}
             <a
               className="cdp-link"
-              href="https://www.democracylab.org/index/?section=Home">
+              href="https://www.democracylab.org/index/?section=Home"
+            >
               DemocracyLab
             </a>
             .

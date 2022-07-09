@@ -7,7 +7,6 @@
     "start": "vite --open",
     "build": "vite build",
     "deploy": "npm run build && gh-pages -d dist",
-    "lint": "eslint --ignore-path .gitignore .",
     "fmt": "prettier --config ./.prettierrc --check \"**/*.{html,css,js,jsx,md}\"",
     "fmt:fix": "prettier --config ./.prettierrc --write \"**/*.{html,css,js,jsx,md}\"",
     "preview": "vite preview"
@@ -26,12 +25,6 @@
     "gh-pages": "^3.2.3",
     "prettier": "^2.6.2",
     "vite": "^2.9.6"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
   },
   "browserslist": {
     "production": [

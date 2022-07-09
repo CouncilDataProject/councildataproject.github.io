@@ -24,7 +24,8 @@ export function Testimonials() {
   return (
     <section
       className="mzp-l-content mzp-t-content-lg"
-      style={{ marginTop: '4rem', marginBottom: '4rem' }}>
+      style={{ marginTop: '4rem', marginBottom: '4rem' }}
+    >
       <h2 className="mzp-u-title-md" style={{ textAlign: 'center' }}>
         Praised by activists, reporters, government, and more
       </h2>

@@ -31,7 +31,8 @@ export function Navigation() {
           <button
             className="mzp-c-navigation-menu-button"
             type="button"
-            aria-controls="navigation-menu">
+            aria-controls="navigation-menu"
+          >
             Menu
           </button>
           <NavLogo />
@@ -49,19 +50,22 @@ function NavLogo() {
       style={{
         display: 'flex',
         alignItems: 'center',
-      }}>
+      }}
+    >
       <span
         className="cdp-icon-black-bg-transparent-size-256"
         style={{
           maxWidth: '42px',
           maxHeight: '42px',
-        }}></span>
+        }}
+      ></span>
       <p
         style={{
           margin: '0',
           fontSize: '18px',
           fontWeight: 'bold',
-        }}>
+        }}
+      >
         Council Data Project
       </p>
     </section>
@@ -90,7 +94,8 @@ function NavItems({ links }) {
         <div className="mzp-c-button-download-container">
           <a
             href="https://github.com/CouncilDataProject"
-            className="mzp-c-button mzp-t-product mzp-t-product mzp-t-secondary mzp-t-md">
+            className="mzp-c-button mzp-t-product mzp-t-product mzp-t-secondary mzp-t-md"
+          >
             GitHub
           </a>
         </div>

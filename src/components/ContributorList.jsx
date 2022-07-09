@@ -101,7 +101,8 @@ export function ContributorList() {
           key={contributor.linkUrl}
           className="cdp-doc-card"
           style={{ textDecoration: 'none', color: '#000' }}
-          href={contributor.linkUrl}>
+          href={contributor.linkUrl}
+        >
           <p className="cdp-doc-card-title">{contributor.name}</p>
           <p className="cdp-doc-card-description">{contributor.role}</p>
         </a>
