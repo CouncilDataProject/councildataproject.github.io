@@ -3,7 +3,7 @@ name: Check PR
 on: pull_request
 
 jobs:
-  lint:
+  format:
     runs-on: ubuntu-latest
 
     steps:
@@ -15,10 +15,7 @@ jobs:
     - name: Install Dependencies
       run: |
         npm i
-    - name: Run Linter
-      run: |
-        npm run lint
-    - name: Run Formatter
+    - name: Check Formatting
       run: |
         npm run fmt
 
