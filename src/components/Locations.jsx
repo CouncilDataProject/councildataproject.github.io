@@ -53,7 +53,8 @@ export function Locations() {
       metadata: 'Maintained by the CDP Core Team',
     },
     {
-      linkUrl: 'https://github.com/CouncilDataProject/cookiecutter-cdp-deployment#readme',
+      linkUrl:
+        'https://github.com/CouncilDataProject/cookiecutter-cdp-deployment#readme',
       imageUrl: 'imgs/city-illustration.png',
       imageDescription: 'An illustration of a city.',
       title: 'Your Location?',
