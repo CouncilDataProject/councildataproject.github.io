@@ -1,0 +1,13 @@
+html {
+  scroll-behavior: smooth;
+}
+
+#locations {
+  background-image: url(/imgs/shape-1.svg), url(/imgs/shape-2.svg),
+    url(/imgs/shape-3.svg), url(/imgs/shape-4.svg), url(/imgs/shape-5.svg),
+    url(/imgs/shape-6.svg);
+  background-color: #f9f9fb;
+  background-position: 80% 63%, 0 0, bottom 10% right,
+    bottom left calc(50vw - 600px), bottom 30% left, 100% 0;
+  background-repeat: no-repeat;
+}

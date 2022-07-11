@@ -1,28 +1,30 @@
 {
   "name": "councildataproject.github.io",
-  "version": "0.1.0",
+  "version": "2.0.0",
   "homepage": "http://councildataproject.github.io/",
   "license": "MIT License",
+  "scripts": {
+    "start": "vite --open",
+    "build": "vite build",
+    "deploy": "npm run build && gh-pages -d dist",
+    "fmt": "prettier --config ./.prettierrc --check \"**/*.{html,css,js,jsx,md}\"",
+    "fmt:fix": "prettier --config ./.prettierrc --write \"**/*.{html,css,js,jsx,md}\"",
+    "preview": "vite preview"
+  },
   "dependencies": {
     "@councildataproject/cdp-design": "^1.0.5",
     "@mozilla-protocol/core": "^12.1.1",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
     "react-responsive": "^8.2.0"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "lint": "eslint --ignore-path .gitignore .",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "devDependencies": {
+    "@types/react": "^18.0.8",
+    "@types/react-dom": "^18.0.0",
+    "@vitejs/plugin-react": "^1.3.1",
+    "gh-pages": "^3.2.3",
+    "prettier": "^2.6.2",
+    "vite": "^2.9.6"
   },
   "browserslist": {
     "production": [
@@ -35,13 +37,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "@testing-library/jest-dom": "^5.11.6",
-    "@testing-library/react": "^11.1.2",
-    "@testing-library/user-event": "^12.2.2",
-    "gh-pages": "^3.2.3",
-    "react-scripts": "4.0.0",
-    "web-vitals": "^0.2.4"
   }
 }
