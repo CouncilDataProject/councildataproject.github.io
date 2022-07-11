@@ -21,6 +21,9 @@ Contributions here should be largely text changes, admin updates, and new deploy
 ## Development Commands
 
 - `npm install`: Install project dependencies
-- `npm start`: Start a localhost server and watch for changes
-- `npm run build`: Build the production application
-- `npm run test`: Test that at the very least the webpage will render
+- `npm start`: Start a dev server and watch for changes
+- `npm run build:prod`: Build the production application
+- `npm run build:stage`: Build the development application
+- `npm run deploy:stage`: Deploy a development preview via GitHub Pages in forked repos
+- `npm run fmt`: Check for formatting issues
+- `npm run fmt:fix`: Fix formatting issues
