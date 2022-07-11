@@ -25,7 +25,7 @@ jobs:
         npm i
     - name: Run Build
       run: |
-        npm run build
+        npm run build:prod
 
   deploy:
     runs-on: ubuntu-latest
@@ -41,7 +41,7 @@ jobs:
         npm i
     - name: Build
       run: |
-        npm run build
+        npm run build:prod
     - name: Publish
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:

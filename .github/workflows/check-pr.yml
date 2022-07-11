@@ -33,4 +33,4 @@ jobs:
         npm i
     - name: Run Build
       run: |
-        npm run build
+        npm run build:prod

@@ -1,12 +1,13 @@
 {
   "name": "councildataproject.github.io",
   "version": "2.0.0",
-  "homepage": "http://councildataproject.github.io/",
+  "homepage": "http://councildataproject.org/",
   "license": "MIT License",
   "scripts": {
     "start": "vite --open",
-    "build": "vite build",
-    "deploy": "npm run build && gh-pages -d dist",
+    "build:prod": "vite build",
+    "build:stage": "vite build --base=/councildataproject.github.io/",
+    "deploy:stage": "npm run build:stage && gh-pages -d dist",
     "fmt": "prettier --config ./.prettierrc --check \"**/*.{html,css,js,jsx,md}\"",
     "fmt:fix": "prettier --config ./.prettierrc --write \"**/*.{html,css,js,jsx,md}\"",
     "preview": "vite preview"
