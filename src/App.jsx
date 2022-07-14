@@ -21,8 +21,8 @@ function App() {
         <Hero />
         <Features />
         <About />
-        <Testimonials />
         <Locations />
+        <Testimonials />
         <Contributing />
       </main>
       <Footer />

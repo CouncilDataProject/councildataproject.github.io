@@ -3,9 +3,9 @@ import './DocsList.css';
 export function ContributorList() {
   const contributors = [
     {
-      name: 'Jackson Maxfield Brown',
+      name: 'Eva Maxfield Brown',
       role: 'Project Lead and Backend Development',
-      linkUrl: 'https://jacksonmaxfield.github.io',
+      linkUrl: 'https://evamaxfield.github.io',
     },
     {
       name: 'Nic Weber',
