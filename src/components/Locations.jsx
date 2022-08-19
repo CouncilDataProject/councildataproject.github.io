@@ -53,6 +53,48 @@ export function Locations() {
       metadata: 'Maintained by the CDP Core Team',
     },
     {
+      linkUrl: 'https://councildataproject.org/oakland',
+      imageUrl: 'imgs/oakland.jpg',
+      imageDescription: 'Fox Theatre in Oakland',
+      title: 'Oakland, California',
+      metadata: 'Maintained by the CDP Core Team',
+    },
+    {
+      linkUrl: 'https://councildataproject.org/charlotte',
+      imageUrl: 'imgs/charlotte.jpg',
+      imageDescription: 'Charlotte skyline',
+      title: 'Charlotte, North Carolina',
+      metadata: 'Maintained by the CDP Core Team',
+    },
+    {
+      linkUrl: 'https://councildataproject.org/san-jose',
+      imageUrl: 'imgs/san-jose.jpeg',
+      imageDescription: 'San José City Hall Rotunda',
+      title: 'San José, California',
+      metadata: 'Maintained by the CDP Core Team',
+    },
+    {
+      linkUrl: 'https://councildataproject.org/mountain-view',
+      imageUrl: 'imgs/mountain-view.jpeg',
+      imageDescription: 'Mountain View City Hall and Center for the Performing Arts',
+      title: 'Mountain View, California',
+      metadata: 'Maintained by the CDP Core Team',
+    },
+    {
+      linkUrl: 'https://councildataproject.org/milwaukee',
+      imageUrl: 'imgs/milwaukee.jpg',
+      imageDescription: 'Milwaukee Downtown Waterfront',
+      title: 'Milwaukee, Wisconsin',
+      metadata: 'Maintained by the CDP Core Team',
+    },
+    {
+      linkUrl: 'https://councildataproject.org/long-beach',
+      imageUrl: 'imgs/long-beach.jpg',
+      imageDescription: 'Long Beach Rainbow Harbow',
+      title: 'Long Beach, California',
+      metadata: 'Maintained by the CDP Core Team',
+    },
+    {
       linkUrl:
         'https://github.com/CouncilDataProject/cookiecutter-cdp-deployment#readme',
       imageUrl: 'imgs/city-illustration.png',
