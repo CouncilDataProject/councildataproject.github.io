@@ -54,8 +54,8 @@ export function Locations() {
     },
     {
       linkUrl: 'https://councildataproject.org/oakland',
-      imageUrl: 'imgs/oakland.jpg',
-      imageDescription: 'Fox Theatre in Oakland',
+      imageUrl: 'imgs/oakland.jpeg',
+      imageDescription: 'Oakland Skyline',
       title: 'Oakland, California',
       metadata: 'Maintained by the CDP Core Team',
     },
