@@ -95,6 +95,20 @@ export function Locations() {
       metadata: 'Maintained by the CDP Core Team',
     },
     {
+      linkUrl: 'https://councildataproject.org/albuquerque',
+      imageUrl: 'imgs/albuquerque.jpg',
+      imageDescription: 'Albuquerque downtown skyline',
+      title: 'Albuquerque, New Mexico',
+      metadata: 'Maintained by the CDP Core Team',
+    },
+    {
+      linkUrl: 'https://councildataproject.org/richmond',
+      imageUrl: 'imgs/richmond.jpeg',
+      imageDescription: 'Richmond city skyline',
+      title: 'Richmond, Virginia',
+      metadata: 'Maintained by the CDP Core Team',
+    },
+    {
       linkUrl:
         'https://github.com/CouncilDataProject/cookiecutter-cdp-deployment#readme',
       imageUrl: 'imgs/city-illustration.png',
