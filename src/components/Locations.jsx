@@ -76,7 +76,8 @@ export function Locations() {
     {
       linkUrl: 'https://councildataproject.org/mountain-view',
       imageUrl: 'imgs/mountain-view.jpeg',
-      imageDescription: 'Mountain View City Hall and Center for the Performing Arts',
+      imageDescription:
+        'Mountain View City Hall and Center for the Performing Arts',
       title: 'Mountain View, California',
       metadata: 'Maintained by the CDP Core Team',
     },
@@ -106,6 +107,13 @@ export function Locations() {
       imageUrl: 'imgs/richmond.jpeg',
       imageDescription: 'Richmond city skyline',
       title: 'Richmond, Virginia',
+      metadata: 'Maintained by the CDP Core Team',
+    },
+    {
+      linkUrl: 'https://councildataproject.org/louisville',
+      imageUrl: 'imgs/louisville.jpeg',
+      imageDescription: 'Louisville skyline with river',
+      title: 'Louisville, Kentucky',
       metadata: 'Maintained by the CDP Core Team',
     },
     {
