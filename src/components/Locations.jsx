@@ -117,6 +117,13 @@ export function Locations() {
       metadata: 'Maintained by the CDP Core Team',
     },
     {
+      linkUrl: 'https://councildataproject.org/atlanta',
+      imageUrl: 'imgs/atlanta.jpg',
+      imageDescription: 'Atlanta skyline looking at the ferris wheel',
+      title: 'Atlanta, Georgia',
+      metadata: 'Maintained by the CDP Core Team',
+    },
+    {
       linkUrl:
         'https://github.com/CouncilDataProject/cookiecutter-cdp-deployment#readme',
       imageUrl: 'imgs/city-illustration.png',
