@@ -124,6 +124,20 @@ export function Locations() {
       metadata: 'Maintained by the CDP Core Team',
     },
     {
+      linkUrl: 'https://councildataproject.org/pittsburgh-pa',
+      imageUrl: 'imgs/pittsburgh.jpg',
+      imageDescription: 'Pittsburgh skyline and Point State Park',
+      title: 'Pittsburgh, Pennsylvania',
+      metadata: 'Maintained by the CDP Core Team',
+    },
+    {
+      linkUrl: 'https://sunshine-request.github.io/cdp-asheville/',
+      imageUrl: 'imgs/asheville.jpg',
+      imageDescription: 'Asheville city skyline and mountains and hills behind',
+      title: 'Asheville, North Carolina',
+      metadata: 'Maintained by Code for Asheville',
+    },
+    {
       linkUrl:
         'https://github.com/CouncilDataProject/cookiecutter-cdp-deployment#readme',
       imageUrl: 'imgs/city-illustration.png',
