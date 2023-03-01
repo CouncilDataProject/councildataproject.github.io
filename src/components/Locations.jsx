@@ -138,6 +138,13 @@ export function Locations() {
       metadata: 'Maintained by Code for Asheville',
     },
     {
+      linkUrl: 'https://www.openmontana.org/montana-legislature-council-data-project/#/events',
+      imageUrl: 'imgs/montana-st-leg.jpg',
+      imageDescription: 'Montana state capital building and garden',
+      title: 'Montana State Legislature',
+      metadata: 'Maintained by Open Montana',
+    },
+    {
       linkUrl:
         'https://github.com/CouncilDataProject/cookiecutter-cdp-deployment#readme',
       imageUrl: 'imgs/city-illustration.png',
