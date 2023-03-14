@@ -135,7 +135,7 @@ export function Locations() {
       imageUrl: 'imgs/asheville.jpg',
       imageDescription: 'Asheville city skyline and mountains and hills behind',
       title: 'Asheville, North Carolina',
-      metadata: 'Maintained by Code for Asheville',
+      metadata: 'Maintained by Sunshine Labs and Code for Asheville',
     },
     {
       linkUrl: 'https://www.openmontana.org/montana-legislature-council-data-project/#/events',
