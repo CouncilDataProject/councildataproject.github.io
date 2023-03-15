@@ -1,5 +1,5 @@
 import { Location } from './Location';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 export function Locations() {
   const locationsData = [
     {
@@ -177,13 +177,22 @@ export function Locations() {
   ];
   const regions = ['All', 'West', 'East', 'South', 'Midwest'];
   const [selectedRegion, setSelectedRegion] = useState('All');
+  const [searchTerm, setSearchTerm] = useState('');
+  const [data, setData] = useState(locationsData);
+  //filter data based on searchbar
+  useEffect(() => {
+    const results = locationsData.filter((location) =>
+      location.title.toLowerCase().includes(searchTerm)
+    );
+    setData(results);
+  }, [searchTerm]);
   const handleRegionChange = (event) => {
     setSelectedRegion(event.target.value);
   };
   const filteredLocations =
     selectedRegion === 'All'
-      ? locationsData
-      : locationsData.filter((location) => location.region === selectedRegion);
+      ? data
+      : data.filter((location) => location.region === selectedRegion);
   return (
     <section
       id="locations"
@@ -196,18 +205,25 @@ export function Locations() {
           All currently maintained Council Data Project locations.
         </p>
         <div>
-          <label htmlFor="region-select">Filter by region:</label>
-          <select
-            id="region-select"
-            value={selectedRegion}
-            onChange={handleRegionChange}
-          >
-            {regions.map((region) => (
-              <option key={region} value={region}>
-                {region}
-              </option>
-            ))}
-          </select>
+          <input
+            type="text"
+            placeholder="Search Locations"
+            onChange={(event) => setSearchTerm(event.target.value)}
+          />
+          <div>
+            <label htmlFor="region-select">Filter by region:</label>
+            <select
+              id="region-select"
+              value={selectedRegion}
+              onChange={handleRegionChange}
+            >
+              {regions.map((region) => (
+                <option key={region} value={region}>
+                  {region}
+                </option>
+              ))}
+            </select>
+          </div>
         </div>
         <div className="mzp-l-card-third">
           {filteredLocations.map((location) => (
