@@ -25,7 +25,7 @@ export function ContributorList() {
     {
       name: 'Hawk Ticehurst',
       role: 'Frontend Development',
-      linkUrl: 'https://twitter.com/hawkticehurst',
+      linkUrl: 'https://hawkticehurst.com/',
     },
     {
       name: 'Brian Ledbetter',
